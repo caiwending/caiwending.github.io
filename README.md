@@ -10,7 +10,7 @@ School of Computing<br />
 University of Connecticut, Storrs, CT 06269</p>
 <p>Contact:<br />
 Phone: (860) 486-0006<br />
-Email: caiwen dot ding at uconn dot edu<br />
+Email: caiwen.ding@uconn.edu<br />
 Address: 371 Fairfield Way Unit 4155 Room 361, Storrs, CT 06269-2155</p>
 </div></div><div id="panel-21-0-0-1" class="so-panel widget widget_text" data-index="1" >			<div class="textwidget"><div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;">
 <div class="resolved" style="all: initial;" data-reactroot=""></div>
