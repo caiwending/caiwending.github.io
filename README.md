@@ -1,3 +1,4 @@
+<link rel="title" href="titlehide.css">
 
 <html lang="en-US">
 <head>
