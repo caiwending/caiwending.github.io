@@ -51,6 +51,6 @@ Address: 371 Fairfield Way Unit 4155 Room 361, Storrs, CT 06269-2155</p>
 </ul>
 </div>
 		</div></div></div></div></div></div><div id="panel-21-1-0-1" class="so-panel widget widget_media_image" data-index="4" ><h3 class="widget-title">Research Sponsors:</h3><img fetchpriority="high" decoding="async" width="400" height="282" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026-400x282.png" class="image wp-image-1811  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026-400x282.png 400w, https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026-768x541.png 768w, https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026.png 913w" sizes="(max-width: 400px) 100vw, 400px" /></div><div id="panel-21-1-0-2" class="so-panel widget widget_text panel-last-child" data-index="5" >			
-		</div></div></div></div>	</div>
+		</div></div></div>
 		 
 	
