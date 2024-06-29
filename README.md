@@ -22,10 +22,16 @@ Address: 371 Fairfield Way Unit 4155 Room 361, Storrs, CT 06269-2155</p>
 <li><a class="external" href="https://mlddd-ct.github.io/" rel="noopener">Laboratory of Machine Learning in Drug Discovery &amp; Development</a></li>
 <li>Visit our <a href="https://github.com/ies-uconn">GitHub repository</a>!</li>
 </ul>
-<div id="i4c-dialogs-container"><em><strong>[To Prospective Ph.D. Applications]</strong> I am always looking for highly-motivated Ph.D. students who have strong interests in FPGAs/GPUs programming (preferred), or machine learning/deep learning, with full financial support. You are welcome to drop me an email at <strong>caiwen.ding1@gmail.com</strong> (receiving too many emails from my uconn email address) with your materials such as CV and transcripts and mention my name in your application.</em></div>
-<div id="i4c-dialogs-container"></div>
+<div id="i4c-dialogs-container"><em><strong>[To Prospective Ph.D. Applications]</strong> I am always looking for highly-motivated Ph.D. students who have strong interests in FPGAs/GPUs programming (preferred), or machine learning/deep learning, with full financial support. You are welcome to drop me an email at <strong>caiwen.ding1@gmail.com</strong> (receiving too many emails from my uconn email address) with your materials such as CV and transcripts and mention my name in your application.</em>
 </div>
-		<h3 class="widget-title">Recent News</h3>			<div class="textwidget"><ul>
+<div id="i4c-dialogs-container">
+	
+</div>
+<div>
+		<h3 class="widget-title">Recent News</h3>	
+</div>		
+<div class="textwidget"><ul>
+<div>
 <li>05/2024 Hongwu starts summer intern at Adobe Research. Congrats!</li>
 <li>05/2024 Shaoyi is selected as one of the <a href="https://mlcommons.org/2024/02/call-for-ml-and-systems-rising-stars-2024/">2024 ML and Systems Rising Stars</a>. Congrats!</li>
 <li>05/2024 Shaoyi will join as a Tenure-Track Assistant Professor in the <a href="https://www.stevens.edu/school-engineering-science/departments/computer-science">Department of Computer Science</a> at Stevens Institute of Technology in Fall 2024. Congrats!</li>
@@ -50,7 +56,7 @@ Address: 371 Fairfield Way Unit 4155 Room 361, Storrs, CT 06269-2155</p>
 <li><a href="https://caiwending.cse.uconn.edu/news/">More News</a></li>
 </ul>
 </div>
-		</div></div></div></div></div></div><div id="panel-21-1-0-1" class="so-panel widget widget_media_image" data-index="4" ><h3 class="widget-title">Research Sponsors:</h3><img fetchpriority="high" decoding="async" width="400" height="282" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026-400x282.png" class="image wp-image-1811  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026-400x282.png 400w, https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026-768x541.png 768w, https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026.png 913w" sizes="(max-width: 400px) 100vw, 400px" /></div><div id="panel-21-1-0-2" class="so-panel widget widget_text panel-last-child" data-index="5" >			
+		<div id="panel-21-1-0-1" class="so-panel widget widget_media_image" data-index="4" ><h3 class="widget-title">Research Sponsors:</h3><img fetchpriority="high" decoding="async" width="400" height="282" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026-400x282.png" class="image wp-image-1811  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026-400x282.png 400w, https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026-768x541.png 768w, https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2024/04/Screenshot-2024-04-04-000026.png 913w" sizes="(max-width: 400px) 100vw, 400px" /></div><div id="panel-21-1-0-2" class="so-panel widget widget_text panel-last-child" data-index="5" >			
 		</div></div></div>
 		 
 	
