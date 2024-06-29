@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <div class="gallery">
-      <img src="caiwending/caiwen.jpg" alt="caiwen ding" width="300">
+      <img src="caiwen.jpg" alt="caiwen ding" width="300">
 </div>
 
 School of Computing<br />
