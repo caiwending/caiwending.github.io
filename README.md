@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="1; url=https://caiwending.github.io/web/home.html">
-    
-    
-</head>
+
 <body>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://caiwending.github.io/web/home.html";
+        }, 50); // 0.05秒后跳转
+    </script>
 </body>
 </html>
