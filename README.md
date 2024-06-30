@@ -37,6 +37,8 @@ Address: 371 Fairfield Way Unit 4155 Room 361, Storrs, CT 06269-2155</p>
 </div>		
 <div class="textwidget"><ul>
 <div>
+<li>06/2024 Caiwen will join as an Associate Professor in the CS&E Department at University of Minnesota Twin Cities in Fall 2024.
+<li>05/2024 We have a fruitful School of Computing Annual PhD Fellowship achivement this year.  Kiran receives Predoctoral Honorable Mention; Jiahui receives Predoctoral Fellowship; Hongwu receives Predoctoral Prize for Research Excellence; Shaoyi receives Marion and Frederick Buckman Engineering Fellowship; Shanglin receives Predoctoral Fellowship; Amit receives Professor Reda Ammar Fellowship. Congrats to everyone!
 <li>05/2024 Hongwu starts summer intern at Adobe Research. Congrats!</li>
 <li>05/2024 Shaoyi is selected as one of the <a href="https://mlcommons.org/2024/02/call-for-ml-and-systems-rising-stars-2024/">2024 ML and Systems Rising Stars</a>. Congrats!</li>
 <li>05/2024 Shaoyi will join as a Tenure-Track Assistant Professor in the <a href="https://www.stevens.edu/school-engineering-science/departments/computer-science">Department of Computer Science</a> at Stevens Institute of Technology in Fall 2024. Congrats!</li>
