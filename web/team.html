@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title >Team</title>
-    <link rel="stylesheet" href="https://aurora.media.uconn.edu/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.90.0">
-    <link rel="stylesheet" href="https://aurora.media.uconn.edu/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.90.0">
-    <link rel="stylesheet" href="https://aurora.media.uconn.edu/wp-content/plugins/ml-slider-pro/assets/public.css?ver=2.36.0">
+    <title>Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css">
     <style>
         #metaslider_1321 .flex-control-thumbs li {
             max-width: 150px;
@@ -26,10 +24,18 @@
             overflow-x: auto;
         }
         .person-image img {
-            max-width: 65px;
-            max-height: 65px;
+            width: 150px;
+            height: 150px;
             display: block;
             margin: 0 auto;
+            background-color: #f0f0f0;
+        }
+        .person-image {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .person-about p {
             margin: 0;
@@ -50,6 +56,26 @@
         .navbar a:hover {
             background-color: #ddd;
             color: black;
+        }
+        .flex-caption {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 10px;
+            position: bottom;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .flexslider .slides img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        .flexslider {
+            margin: 0;
+            padding: 0;
+            border: none;
         }
     </style>
 </head>
@@ -72,29 +98,25 @@
                             <main id="main" class="site-main" role="main">
                                 <article id="post-856" class="clearfix post-856 page type-page status-publish hentry">
                                     <header class="entry-header">
-                                        <h1 class="entry-title" style="color: red;" >Team</h1>
+                                        <h1 class="entry-title" style="color: red;">Team</h1>
                                     </header>
                                     <div class="entry-content">
                                         <h3>Team Achievements</h3>
-                                        <div id="metaslider-id-1321" class="metaslider metaslider-flex metaslider-1321 ml-slider ms-theme-default has-thumb-nav has-thumbs-responsive" role="region" aria-roledescription="Slideshow" aria-label="Team achievement slideshow">
-                                            <div id="metaslider_container_1321">
-                                                <div id="metaslider_1321">
-                                                    <ul class='slides'>
-                                                        <li data-thumb="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2023/05/best-paper-AAAI-2023-150x100.png" class="slide-1497 ms-image" aria-roledescription="slide" aria-label="slide-1497">
-                                                            <img fetchpriority="high" decoding="async" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2023/05/best-paper-AAAI-2023-1750x1375.png" height="1375" width="1750" alt="best paper AAAI 2023" class="slider-1321 slide-1497" title="best paper AAAI 2023" />
-                                                            <div class="caption-wrap"><div class="caption">AAAI 2023: Best paper award</div></div>
-                                                        </li>
-                                                        <li data-thumb="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/11/ICCAD_2022_TinyML_Certificate_accuracy-1-150x100.jpg" class="slide-1328 ms-image" aria-roledescription="slide" aria-label="slide-1328">
-                                                            <img decoding="async" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/11/ICCAD_2022_TinyML_Certificate_accuracy-1-1750x1375.jpg" height="1375" width="1750" alt="ICCAD 2022 TinyML Certificate" class="slider-1321 slide-1328" title="ICCAD 2022 TinyML Certificate Accuracy" />
-                                                            <div class="caption-wrap"><div class="caption">Certificate: 2022 ACM/IEEE TinyML Design Contest First Place Winner in Accuracy</div></div>
-                                                        </li>
-                                                        <li data-thumb="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/11/ICCAD_2022_TinyML_Certificate_4th-1-150x100.jpg" class="slide-1329 ms-image" aria-roledescription="slide" aria-label="slide-1329">
-                                                            <img decoding="async" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/11/ICCAD_2022_TinyML_Certificate_4th-1-1750x1375.jpg" height="1375" width="1750" alt="ICCAD 2022 TinyML Certificate" class="slider-1321 slide-1329" title="ICCAD 2022 TinyML Certificate 4th Place" />
-                                                            <div class="caption-wrap"><div class="caption">Certificate: 2022 ACM/IEEE TinyML Design Contest Fourth Place Winner</div></div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                        <div id="metaslider-id-1321" class="flexslider">
+                                            <ul class="slides">
+                                                <li>
+                                                    <img src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2023/05/best-paper-AAAI-2023-1750x1375.png" alt="best paper AAAI 2023" />
+                                                    <div class="flex-caption">AAAI 2023: Best paper award</div>
+                                                </li>
+                                                <li>
+                                                    <img src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/11/ICCAD_2022_TinyML_Certificate_accuracy-1-1750x1375.jpg" alt="ICCAD 2022 TinyML Certificate" />
+                                                    <div class="flex-caption">Certificate: 2022 ACM/IEEE TinyML Design Contest First Place Winner in Accuracy</div>
+                                                </li>
+                                                <li>
+                                                    <img src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/11/ICCAD_2022_TinyML_Certificate_4th-1-1750x1375.jpg" alt="ICCAD 2022 TinyML Certificate" />
+                                                    <div class="flex-caption">Certificate: 2022 ACM/IEEE TinyML Design Contest Fourth Place Winner</div>
+                                                </li>
+                                            </ul>
                                         </div>
                                         <footer class="entry-footer"></footer>
                                         <div class="uc-people">
@@ -112,7 +134,7 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr class="person-1717">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/stepan-gordeev/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2023/12/stepan-e1702577830434-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Stepan Gordeev" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/stepan-gordeev/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2023/12/stepan-e1702577830434-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Stepan Gordeev" /></a></td>
                                                                 <td class="person-name"><a href="https://sgordeev.com/" target="_blank">Stepan Gordeev</a></td>
                                                                 <td class="person-title"><strong>Postdoctoral Research Associate</strong></td>
                                                                 <td class="person-about"><p>Macro Development Economist</p></td>
@@ -135,7 +157,7 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr class="person-1178">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/cheng-cheng/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/cheng-cheng/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/cheng-cheng/">Cheng Cheng</a></td>
                                                                 <td class="person-title"><strong>Assistant Professor <br>(Morehead State University)</strong></td>
                                                                 <td class="person-about"><p>Nanobiosensing technology to develop rapid and portable biosensing platforms.</p></td>
@@ -158,103 +180,103 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr class="person-1088">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/ya-sine-agrignan/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/03/1617923783254-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Ya-Sine Agrignan" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/ya-sine-agrignan/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/03/1617923783254-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Ya-Sine Agrignan" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/ya-sine-agrignan/">Ya-Sine Agrignan</a></td>
                                                                 <td class="person-title"><strong>Research Assistant <br>(Master)</strong></td>
                                                                 <td class="person-about"><p>Machine learning, hardware</p></td>
                                                             </tr>
                                                             <tr class="person-667">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/shiyang-chen/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/shiyang-chen/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/shiyang-chen/">Shiyang Chen</a></td>
                                                                 <td class="person-title"><strong>Research Assistant <br>(Co-supervision with Prof. Hang Liu)</strong></td>
                                                                 <td class="person-about"><p>HPC, GPU, Machine Learning Acceleration</p></td>
                                                             </tr>
                                                             <tr class="person-1675">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/deniz-gurevin/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/deniz-gurevin/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/deniz-gurevin/">Deniz Gurevin</a></td>
                                                                 <td class="person-title"><strong>Research Assistant <br>(Co-supervision with Prof. Omer Khan)</strong></td>
                                                                 <td class="person-about"><p>GPU, Machine Learning Acceleration</p></td>
                                                             </tr>
                                                             <tr class="person-1219">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/amit-hasan/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/09/IMG_0664-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Amit Hasan" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/amit-hasan/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/09/IMG_0664-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Amit Hasan" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/amit-hasan/">Amit Hasan</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Model Compression, Computer Vision, Co-designing<br>NN Architecture and Hardware</p></td>
                                                             </tr>
                                                             <tr class="person-583">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/shaoyi-huang/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/03/Shaoyi-Huang-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Shaoyi Huang" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/shaoyi-huang/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/03/Shaoyi-Huang-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Shaoyi Huang" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/shaoyi-huang/">Shaoyi Huang</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Algorithm/hardware co-design for ML systems</p></td>
                                                             </tr>
                                                             <tr class="person-1272">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/bin-lei/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Bin-Lei-e1665815478178-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Bin Lei" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/bin-lei/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Bin-Lei-e1665815478178-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Bin Lei" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/bin-lei/">Bin Lei</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Machine Learning</p></td>
                                                             </tr>
                                                             <tr class="person-61">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/bingbing-li/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2015/11/bing-150x150.png" class="attachment-65x65 size-65x65 wp-post-image" alt="Bingbing Li" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/bingbing-li/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2015/11/bing-150x150.png" class="attachment-65x65 size-65x65 wp-post-image" alt="Bingbing Li" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/bingbing-li/">Bingbing Li</a></td>
                                                                 <td class="person-title"><strong>Research Assistant <br>(GE fellowship)</strong></td>
                                                                 <td class="person-about"><p>Machine learning, NLP, algorithm, robotics and data analysis</p></td>
                                                             </tr>
                                                             <tr class="person-1593">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/matli/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/03/matthew-li-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Matthew Li" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/matli/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/03/matthew-li-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Matthew Li" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/matli/">Matthew Li</a></td>
                                                                 <td class="person-title"><strong>Research Assistant <br>(Master)</strong></td>
                                                                 <td class="person-about"><p>Machine Learning, Frontend development, Backend development</p></td>
                                                             </tr>
                                                             <tr class="person-1275">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/yuebo/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Yuebo-Luo-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Yuebo Luo" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/yuebo/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Yuebo-Luo-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Yuebo Luo" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/yuebo/">Yuebo Luo</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Graph Neural Networks, SW-HW Co-design</p></td>
                                                             </tr>
                                                             <tr class="person-1595">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/nicole/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/MicrosoftTeams-image-4-150x150.png" class="attachment-65x65 size-65x65 wp-post-image" alt="Nicole Meng" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/nicole/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/MicrosoftTeams-image-4-150x150.png" class="attachment-65x65 size-65x65 wp-post-image" alt="Nicole Meng" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/nicole/">Nicole Meng</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Adversarial Machine Learning, Computer Vision</p></td>
                                                             </tr>
                                                             <tr class="person-616">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/hongwu-peng/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/11/WechatIMG50-e1665440096762-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Hongwu Peng" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/hongwu-peng/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/11/WechatIMG50-e1665440096762-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Hongwu Peng" /></a></td>
                                                                 <td class="person-name"><a href="https://harveyp123.github.io" target="_blank">Hongwu Peng</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>FPGA, Machine Learning, Graph</p></td>
                                                             </tr>
                                                             <tr class="person-1598">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/ronak/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/ronak/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/ronak/">Ronak Sahu</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Machine Learning</p></td>
                                                             </tr>
                                                             <tr class="person-1580">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/kiran/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Kiran-Gautam-Thorat-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Kiran Thorat" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/kiran/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Kiran-Gautam-Thorat-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Kiran Thorat" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/kiran/">Kiran Thorat</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Machine Learning for EDA, Graph Neural Networks</p></td>
                                                             </tr>
                                                             <tr class="person-1269">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/xi-xie/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Xi-Xie-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Xi Xie" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/xi-xie/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Xi-Xie-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Xi Xie" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/xi-xie/">Xi Xie</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>FPGA</p></td>
                                                             </tr>
                                                             <tr class="person-665">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/zhanfu-yang/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/zhanfu-yang/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/zhanfu-yang/">Zhanfu Yang</a></td>
                                                                 <td class="person-title"><strong>Research Assistant <br>(Co-supervision with Prof. Hang Liu)</strong></td>
                                                                 <td class="person-about"><p>Machine Learning, Graph Learning</p></td>
                                                             </tr>
                                                             <tr class="person-1260">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/jiahui-zhao/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Jiahui-Zhao-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Jiahui Zhao" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/jiahui-zhao/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/10/Jiahui-Zhao-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Jiahui Zhao" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/jiahui-zhao/">Jiahui Zhao</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Deep Learning, Natural Language Processing</p></td>
                                                             </tr>
                                                             <tr class="person-948">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/shanglin-zhou/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2021/08/shanglin-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Shanglin Zhou" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/shanglin-zhou/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2021/08/shanglin-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Shanglin Zhou" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/shanglin-zhou/">Shanglin Zhou</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Model Compression, Computer Vision, Machine Learning</p></td>
@@ -277,13 +299,13 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr class="person-1094">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/charichugh/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/03/MicrosoftTeams-image-3-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Charitarth Chugh" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/charichugh/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/03/MicrosoftTeams-image-3-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Charitarth Chugh" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/charichugh/">Charitarth Chugh</a></td>
                                                                 <td class="person-title"><strong>Undergraduate Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Self-driving Cars, Reinforcement Learning</p></td>
                                                             </tr>
                                                             <tr class="person-1591">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/kimjiwon/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/03/MicrosoftTeams-image-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Kim Jiwon" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/kimjiwon/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/03/MicrosoftTeams-image-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Kim Jiwon" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/kimjiwon/">Kim Jiwon</a></td>
                                                                 <td class="person-title"><strong>Undergraduate Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Machine learning</p></td>
@@ -306,67 +328,67 @@
                                                         </thead>
                                                         <tbody>
                                                             <tr class="person-1677">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/maryam-abuissa/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/maryam-abuissa/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/maryam-abuissa/">Maryam Abuissa</a></td>
                                                                 <td class="person-title"><strong>REU student (Summer 2023)</strong></td>
                                                                 <td class="person-about"></td>
                                                             </tr>
                                                             <tr class="person-394">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/alexander-chandy/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/03/Portrait-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Alexander Chandy" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/alexander-chandy/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/03/Portrait-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Alexander Chandy" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/alexander-chandy/">Alexander Chandy</a></td>
                                                                 <td class="person-title"><strong>Undergraduate Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Machine learning</p></td>
                                                             </tr>
                                                             <tr class="person-390">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/nathanchoi/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/03/IMG_7022-1-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Nathan Choi" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/nathanchoi/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/03/IMG_7022-1-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Nathan Choi" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/nathanchoi/">Nathan Choi</a></td>
                                                                 <td class="person-title"><strong>Undergraduate Research Assistant <br>(Now CS graduate student in UC Berkeley)</strong></td>
                                                                 <td class="person-about"><p>Machine learning</p></td>
                                                             </tr>
                                                             <tr class="person-484">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/jieren-deng/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/07/Jieren-Deng-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Jieren Deng" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/jieren-deng/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/07/Jieren-Deng-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Jieren Deng" /></a></td>
                                                                 <td class="person-name"><a href="https://jieren-deng.com" target="_blank">Jieren Deng</a></td>
                                                                 <td class="person-title"><strong>Research Assistant</strong></td>
                                                                 <td class="person-about"><p>Machine Learning, Security, Privacy</p></td>
                                                             </tr>
                                                             <tr class="person-348">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/aditya-kulkarni/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/03/Aditya_Professional_Headshot_Pic-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Aditya Kulkarni" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/aditya-kulkarni/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2020/03/Aditya_Professional_Headshot_Pic-150x150.jpg" class="attachment-65x65 size-65x65 wp-post-image" alt="Aditya Kulkarni" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/aditya-kulkarni/">Aditya Kulkarni</a></td>
                                                                 <td class="person-title"><strong>Undergraduate Research Assistant <br>(Now M.S. Student at Columbia University)</strong></td>
                                                                 <td class="person-about"><p>Machine learning, food image classification</p></td>
                                                             </tr>
                                                             <tr class="person-310">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/yanjun-lyu/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/yanjun-lyu/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/yanjun-lyu/">Yanjun Lyu</a></td>
                                                                 <td class="person-title"><strong>Visiting Scholar <br>(Now Ph.D. Student at UT Arlington)</strong></td>
                                                                 <td class="person-about"><p>NLP, model compression, graph similarity search</p></td>
                                                             </tr>
                                                             <tr class="person-1679">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/alison-menezes/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/alison-menezes/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/alison-menezes/">Alison Menezes</a></td>
                                                                 <td class="person-title"><strong>REU student (Summer 2023)</strong></td>
                                                                 <td class="person-about"></td>
                                                             </tr>
                                                             <tr class="person-1589">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/kelsey-mitchell/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/kelsey-mitchell/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/kelsey-mitchell/">Kelsey Mitchell</a></td>
                                                                 <td class="person-title"><strong>Undergraduate Research Assistant <br>(Now at Raytheon Technologies)</strong></td>
                                                                 <td class="person-about"><p>Machine learning</p></td>
                                                             </tr>
                                                             <tr class="person-1336">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/yifan-shan/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/11/YifanShan-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Yifan Shan" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/yifan-shan/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2022/11/YifanShan-150x150.jpeg" class="attachment-65x65 size-65x65 wp-post-image" alt="Yifan Shan" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/yifan-shan/">Yifan Shan</a></td>
                                                                 <td class="person-title"><strong>Undergraduate Research Assistant<br>(Now CS graduate student in Cornell Tech)</strong></td>
                                                                 <td class="person-about"><p>Computer Vision, Natural Language Processing</p></td>
                                                             </tr>
                                                             <tr class="person-1096">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/andy-trinh/"></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/andy-trinh/"><img width="150" height="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/andy-trinh/">Andy Trinh</a></td>
                                                                 <td class="person-title"><strong>Undergraduate Research Assistant <br>(Now BAE Systems)</strong></td>
                                                                 <td class="person-about"><p>System, Machine learning</p></td>
                                                             </tr>
                                                             <tr class="person-790">
-                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/kiera-wolfe/"><img width="65" height="65" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2021/04/WechatIMG4054-150x150.png" class="attachment-65x65 size-65x65 wp-post-image" alt="Kiera Wolfe" /></a></td>
+                                                                <td class="person-image"><a href="https://caiwending.cse.uconn.edu/person/kiera-wolfe/"><img width="150" height="150" src="https://caiwending-cse.media.uconn.edu/wp-content/uploads/sites/2888/2021/04/WechatIMG4054-150x150.png" class="attachment-65x65 size-65x65 wp-post-image" alt="Kiera Wolfe" /></a></td>
                                                                 <td class="person-name"><a href="https://caiwending.cse.uconn.edu/person/kiera-wolfe/">Kiera Wolfe</a></td>
                                                                 <td class="person-title"><strong>Undergraduate Research Assistant <br>(Now at Raytheon Technologies)</strong></td>
                                                                 <td class="person-about"><p>Machine Learning, Cloud computing</p></td>
@@ -385,31 +407,18 @@
             </div>
         </div>
     </div>
-    <script src="https://aurora.media.uconn.edu/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider.min.js?ver=3.90.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
     <script>
-        jQuery(document).ready(function($) {
-            $('#metaslider_1321').addClass('flexslider');
-            $('#metaslider_1321').flexslider({
-                slideshowSpeed: 3000,
-                animation: "fade",
-                controlNav: 'thumbnails',
+        $(document).ready(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                controlNav: true,
                 directionNav: true,
-                pauseOnHover: true,
-                direction: "horizontal",
-                animationSpeed: 600,
-                prevText: "Previous",
-                nextText: "Next",
-                slideshow: true,
+                prevText: "&#10094;",
+                nextText: "&#10095;",
                 start: function(slider) {
-                    slider.find('.flex-control-thumbs > li').each(function(index) {
-                        var img = $(this).find('img');
-                        if (!img.attr('src')) {
-                            img.attr('src', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=');
-                            img.css({'background-color': '#fff', 'width': '150px','height': '100px'});
-                        }
-                    });
-                    $('#metaslider_1321.flexslider > .slides').wrap('<div style="position:relative" class="flex-slide-wrap"></div>');
-                    $('#metaslider_1321.flexslider .flex-direction-nav').appendTo('.metaslider #metaslider_1321.flexslider .flex-slide-wrap');
+                    $('body').removeClass('loading');
                 }
             });
         });
