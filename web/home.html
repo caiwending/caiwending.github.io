@@ -37,13 +37,19 @@
         align-items: center;
     }
     .image-column img {
-        width: 300px;
-        height: auto;
-        border-radius: 8px;
+        width: 200px;
+        height: 300px;
+        border-radius: 4px;
     }
-    .info-column {
-        flex: 2;
+    .info-column, .bio-column {
+        flex: 4;
         padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bio-column {
+        padding-left: 0;
     }
     .info, .laboratory, .news, .research-sponsors {
         margin-bottom: 20px;
@@ -87,6 +93,11 @@
                     Email: caiwen.ding@uconn.edu<br />
                     Address: 371 Fairfield Way Unit 4155 Room 361, Storrs, CT 06269-2155</p>
                 </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="bio-column">
                 <div class="bio">
                     <p>Caiwen Ding is an assistant professor in the <a href="https://www.cse.uconn.edu/">School of Computing at the University of Connecticut</a>. He received his Ph.D. degree from Northeastern University (NEU), Boston in 2019, supervised by <strong><a href="https://web.northeastern.edu/yanzhiwang/">Prof. Yanzhi Wang</a></strong>. His interests include Algorithm-system co-design of machine learning/artificial intelligence; computer architecture and heterogeneous computing (FPGAs/GPUs); privacy-preserving machine learning; machine learning for electronic design automation (EDA); neuromorphic computing; computer vision and natural language processing.</p>
                     <p>His work has been frequently published in high-impact conferences (e.g., DAC, ICCAD, ASPLOS, ISCA, MICRO, HPCA, CCS, Oakland, SC, FPGA, MLSys, NeurIPS, ICML, CVPR, AAAI, ACL, EMNLP, IJCAI, ICRA, DATE). He is a recipient of the NSF CAREER Award, Amazon Research Award, and CISCO Research Award. He received the Best Paper Award at the 2023 AAAI DCAA workshop, Outstanding student paper award at 2023 HPEC, Best Paper Award Nomination at DATE 2018 and DATE 2021, and publicity paper at DAC 2022. His team won first place in accuracy and fourth place overall at the 2022 ACM/IEEE TinyML Design Contest at ICCAD. He was ranked among the Stanford's World's Top 2% Scientists in 2023. He received two UConn Research Excellence Awards in 2021 and 2023, respectively, and the 2021 Excellent in Teaching Award from UConn Provost.</p>
@@ -139,7 +150,7 @@
                         <li>11/2023 One paper is accepted by <strong>IEEE I-ITS.</strong></li>
                         <li>10/2023 One paper is accepted by 2024 <strong>HPCA.</strong></li>
                         <li>9/2023 One paper is accepted by 2023 <strong>NeurIPS.</strong></li>
-                        <li><a href="https://caiwending.cse.uconn.edu/news/">More News</a></li>
+                        <li><a href="news.html">More News</a></li>
                     </ul>
                 </div>
                 <div class="research-sponsors">
@@ -154,4 +165,3 @@
     </div>
 </body>
 </html>
-
