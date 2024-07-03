@@ -4,6 +4,31 @@
     <meta charset="UTF-8">
     <title>Awards And Activities</title>
     <style>
+        header {
+            width: 100%;
+            background-color:rgb(122,0,25);
+            display: flex;
+            justify-content: flex-start;
+            padding: 20px 0;
+        }
+        body {
+            background-color: #f2d06a; /* Using the hex value for the background color */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            font-family: Arial, sans-serif; /* Optionally set a default font for the page */
+        }
+        .image-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .top-image {
+            margin: -20px  30px;
+            height: 80px;
+            width: 170px;
+            background: none;
+        }
         .navbar {
             display: flex;
             justify-content: space-around;
@@ -24,6 +49,13 @@
     </style>
 </head>
 <body>
+    <header>
+        <div class="image-container">
+            <a href="https://twin-cities.umn.edu/">
+            <img src="university-of-minnesota.png" alt="Image 1" class="top-image">
+            </a>
+        </div>
+    </header>
     <div class="navbar">
         <a href="home.html">Home</a>
         <a href="publication.html">Publications</a>
