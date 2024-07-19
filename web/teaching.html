@@ -10,6 +10,7 @@
             display: flex;
             align-items: center;
             padding: 0px ;
+	    flex-wrap: wrap;
         }
         body {
             background-color: #FFF5E1; /* Using the hex value for the background color */
@@ -31,6 +32,7 @@
         .navbar {
             display: flex;
             align-items: center;
+	    flex-wrap: nowrap;
         }
         .navbar a {
             color: white;
@@ -43,7 +45,29 @@
             background-color: #ddd;
             color: black;
         }
-	
+	 @media (max-width: 1024px) {
+            header {
+                flex-direction: column; /* 将header变为竖直方向 */
+                align-items: center; /* 居中对齐 */
+            }
+            .navbar {
+                flex-direction: column; /* 将导航栏变为竖直方向 */
+                align-items: center;
+                width: 100%; /* 使导航栏在窄屏幕时占满整个宽度 */
+            }
+            .navbar a {
+                padding: 10px;
+                font-size: 16px;
+                width: 100%; /* 使链接在窄屏幕时占满整个宽度 */
+                box-sizing: border-box;
+            }
+            .top-image {
+                height: 60px;
+                width: 130px;
+                margin-right: 0; /* 去掉右边距 */
+                margin-bottom: 10px; /* 添加底部间距 */
+            }
+        }
     </style>
 </head>
 <body>
