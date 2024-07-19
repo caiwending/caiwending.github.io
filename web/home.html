@@ -8,7 +8,6 @@
         width: 100%;
         background-color: rgb(122,0,25);
         display: flex;
-        justify-content: space-between;
         align-items: center;
         padding: 20px;
     }
@@ -20,19 +19,17 @@
     }
     .image-container {
         display: flex;
-        justify-content: flex-start;
         align-items: center;
     }
 
     .top-image {
-        margin: -20px  -10px;
+        margin-right: 20px; /* 添加右边距以确保导航栏紧挨着 logo */
         height: 80px;
         width: 170px;
         background: none;
     }
     .navbar {
         display: flex;
-        justify-content: flex-end;
         align-items: center;
     }
     .navbar a {
@@ -96,7 +93,7 @@
     <header>
         <div class="image-container">
             <a href="https://twin-cities.umn.edu/">
-            <img src="university-of-minnesota.png" alt="Image 1" class="top-image">
+                <img src="university-of-minnesota.png" alt="Image 1" class="top-image">
             </a>
         </div>
         <div class="navbar">
@@ -201,4 +198,3 @@
     </div>
 </body>
 </html>
-
