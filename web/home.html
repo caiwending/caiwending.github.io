@@ -22,7 +22,22 @@
     }
     .image-container {
         display: flex;
-        align-items: center;
+        align-items: center;@media (max-width: 768px) {
+            .navbar {
+                flex-direction: column; /* 将导航栏变为竖直方向 */
+                align-items: flex-start;
+            }
+            .navbar a {
+                padding: 10px;
+                font-size: 16px;
+                width: 100%; /* 使链接在窄屏幕时占满整个宽度 */
+                box-sizing: border-box;
+            }
+            .top-image {
+                height: 60px;
+                width: 130px;
+            }
+        }
     }
 
     .top-image {
@@ -34,7 +49,7 @@
     .navbar {
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .navbar a {
         color: white;
@@ -45,7 +60,37 @@
     }
     .navbar a:hover {
         background-color: #ddd;
-        color: black;
+        color: black;@media (max-width: 768px) {
+            .navbar {
+                flex-direction: column; /* 将导航栏变为竖直方向 */
+                align-items: flex-start;
+            }
+            .navbar a {
+                padding: 10px;
+                font-size: 16px;
+                width: 100%; /* 使链接在窄屏幕时占满整个宽度 */@media (max-width: 768px) {
+            .navbar {
+                flex-direction: column; /* 将导航栏变为竖直方向 */
+                align-items: flex-start;
+            }
+            .navbar a {
+                padding: 10px;
+                font-size: 16px;
+                width: 100%; /* 使链接在窄屏幕时占满整个宽度 */
+                box-sizing: border-box;
+            }
+            .top-image {
+                height: 60px;
+                width: 130px;
+            }
+        }
+                box-sizing: border-box;
+            }
+            .top-image {
+                height: 60px;
+                width: 130px;
+            }
+        }
     }
     .container {
         display: flex;
@@ -90,10 +135,15 @@
     .news li {
         margin-bottom: 5px;
     }
-     @media (max-width: 768px) {
+     @media (max-width: 1024px) {
+            header {
+                flex-direction: column; /* 将header变为竖直方向 */
+                align-items: center; /* 居中对齐 */
+            }
             .navbar {
                 flex-direction: column; /* 将导航栏变为竖直方向 */
-                align-items: flex-start;
+                align-items: center;
+                width: 100%; /* 使导航栏在窄屏幕时占满整个宽度 */
             }
             .navbar a {
                 padding: 10px;
@@ -104,6 +154,8 @@
             .top-image {
                 height: 60px;
                 width: 130px;
+                margin-right: 0; /* 去掉右边距 */
+                margin-bottom: 10px; /* 添加底部间距 */
             }
         }
 </style>
