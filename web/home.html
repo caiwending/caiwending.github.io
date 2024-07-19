@@ -12,6 +12,7 @@
         display: flex;
         align-items: center;
         padding: 0px;
+        flex-wrap: wrap;
     }
     body {
         background-color: #FFF5E1;
@@ -33,6 +34,7 @@
     .navbar {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
     }
     .navbar a {
         color: white;
@@ -88,6 +90,22 @@
     .news li {
         margin-bottom: 5px;
     }
+     @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column; /* 将导航栏变为竖直方向 */
+                align-items: flex-start;
+            }
+            .navbar a {
+                padding: 10px;
+                font-size: 16px;
+                width: 100%; /* 使链接在窄屏幕时占满整个宽度 */
+                box-sizing: border-box;
+            }
+            .top-image {
+                height: 60px;
+                width: 130px;
+            }
+        }
 </style>
 </head>
 
