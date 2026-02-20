@@ -56,18 +56,10 @@ current:
       url: ""
 
   master:
-    - name: Nicole Meng
-      area: Adversarial Machine Learning, Computer Vision
-      photo: ""
-      url: ""
-    - name: Matthew Li
-      area: Machine Learning, Frontend/Backend Development
-      photo: ""
-      url: ""
-    - name: Vishal Kancharla
-      area: Graph Neural Networks
-      photo: ""
-      url: ""
+    - name: Alex Chen
+      area: Computer Engineering
+      photo: "AlexChen.jpg"
+      url: "https://www.linkedin.com/in/alexandergyuchen/"
 
 alumni:
   phd:
@@ -86,6 +78,21 @@ alumni:
     - name: Deniz Gurevin
       note: Co-supervision with Prof. Omer Khan
       position: Synopsys
+      url: ""
+    - name: Nicole Meng
+      area: Adversarial Machine Learning, Computer Vision
+      position: Ph.D. student at Tufts University
+      photo: ""
+      url: ""
+    - name: Matthew Li
+      area: Machine Learning, Frontend/Backend Development
+      position: Ph.D. student at University of Connecticut
+      photo: ""
+      url: ""
+    - name: Vishal Kancharla
+      area: Graph Neural Networks
+      position: Amazon
+      photo: ""
       url: ""
 
   other:
