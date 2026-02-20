@@ -7,7 +7,7 @@ icon: "/assets/img/icons/cat.ico"
 nav:
   main:
     Publications: "/pages/research"
-    Team: "/pages/team"
+    "UMN APEX Lab": "/pages/team"
     Teaching: "/pages/teaching"
     Projects: "/pages/projects"
     "Awards & Activities": "/pages/awards"
