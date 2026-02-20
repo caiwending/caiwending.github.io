@@ -1,0 +1,92 @@
+- title: "Machine Learning for EDA"
+  sponsor: "NSF"
+  sponsor_logo: "P1.png"
+  items:
+    - "LLM-aided Verilog Generation [DAC'24 WIP]"
+    - "HiVeGen: Hierarchical LLM-based Verilog Generation for Scalable Chip Design [ICLAD'25, <strong>Best Paper Award</strong>]"
+    - "MAHL: Multi-Agent LLM-Guided Hierarchical Chiplet Design [ICCAD'25]"
+    - "GROOT: Graph Edge Re-growth and Partitioning for Verification [ICCAD'25]"
+
+- title: "Efficient Machine Learning Systems, NLP, Computer Vision"
+  sponsor: "NSF"
+  sponsor_logo: "P1.png"
+  items:
+    - "Sparse Training &mdash; [ICCD'22]"
+    - "FPGA Acceleration and Architecture &mdash; [MICRO'17], [FPGA'18], [FPGA'19], [DAC'20], [DAC'22]"
+    - "GPU Acceleration &mdash; [SC'21], [SC'23]"
+    - "Efficient DNN Pruning &mdash; [EMNLP'20], [DAC'21], [IJCAI'21], [ACL'22], [IJCAI'23]"
+    - "Efficient Training &mdash; [IJCAI'21]"
+    - "Run-time Reconfigurable Inference &mdash; [DAC'21], [DATE'22]"
+    - "Embedded/IoT Systems &mdash; [DATE'22], [ICCAD'22]"
+    - "LLM Agents &mdash; [NeurIPS'24 MACM], [NeurIPS'25 InfantAgent-Next]"
+
+- title: "Privacy-Preserving Machine Learning"
+  sponsor: "NSF"
+  sponsor_logo: "P1.png"
+  items:
+    - "Gradient Attack &mdash; [EMNLP'21]"
+    - "Membership Inference Attack &mdash; [IJCAI'21]"
+    - "Secure Federated Learning &mdash; [EMNLP'21 (<em>Oral</em>)]"
+    - "Homomorphic Encryption &mdash; [ICML'23], [NeurIPS'23], [MICRO'23], [ICLR'26]"
+    - "Differential Privacy &mdash; [Oakland'23]"
+
+- title: "Non-von Neumann Computing & Emerging Technology"
+  sponsor: "NSF"
+  sponsor_logo: "P1.png"
+  items:
+    - "ReRAM Based ML &mdash; [ISCA'21], [ISLPED'19], [DATE'21 (<strong>Best Paper Nomination</strong>)], [ISCAS'22]"
+    - "Quantum ML &mdash; [ICCAD'21], [MLSys'22]"
+    - "Superconducting Circuits &mdash; [ICS'25], [DATE'24]"
+
+- title: "Optigrid: Planning & Optimizing the Power Grid"
+  sponsor: "Eversource"
+  sponsor_logo: ""
+  items:
+    - "Developing statistical and deep learning models to predict demand using historical weather, EV sales, and PV installations."
+    - "Real-time techniques to process statistical and deep learning models."
+
+- title: "Graph Processing & Graph Neural Network"
+  sponsor: "SRC / NSF"
+  sponsor_logo: "p2.png"
+  items:
+    - "Exploring extreme sparsity for GNNs for high energy efficiency in large core-count machines."
+    - "Pioneering next-generation many cores systems for efficient execution of GNNs."
+  personnel: "Caiwen Ding (PI), Omer Khan (Co-PI)"
+
+- title: "Change and Damage Detection from Aerial Images"
+  sponsor: "Travelers"
+  sponsor_logo: "p3.png"
+  items:
+    - "Data preprocessing and data understanding of satellite images."
+    - "Change detection via Siamese Networks on pre and post-event images."
+    - "Unsupervised anomaly (change) detection on aerial images and hail damage detection."
+  personnel: "Jinbo Bi (PI), Caiwen Ding (Co-PI), Dongjin Song (Co-PI)"
+
+- title: "Evaluating the Impact of Preferential Trade Agreements on Agricultural and Food Trade"
+  sponsor: "USDA Agriculture and Food Research Initiative (Award #2022-67023-36399)"
+  sponsor_logo: "p4.jpg"
+  items:
+    - "Generates knowledge regarding the formation of preferential trade agreements (PTAs), their impact on global trade, and the consequences for U.S. agricultural and food businesses and employment."
+  personnel: "Caiwen Ding (Co-PI); Jeremy Jelliffe (Collaborator at ERS-USDA); Dongjin Song (Co-PI); Sandro Steinbach (PI)"
+
+- title: "Feasibility of Transformer-based Code Migration for HPC"
+  sponsor: "DOE/LLNL"
+  sponsor_logo: "p5.png"
+  items:
+    - "Investigating large language models (LLM)-based code translation and generation techniques specially designed for LLNL's HPC application requirements."
+  personnel: "Caiwen Ding (PI)"
+
+- title: "Incorporating LLMs into Transportation Safety Analytics and Equity"
+  sponsor: "DOT/NEUTC"
+  sponsor_logo: "p6.png"
+  items: []
+
+- title: "Expanding Capabilities of AI-Based Video Analytics for Intersection Safety"
+  sponsor: "DOT/CCTRP"
+  sponsor_logo: "p6.png"
+  items: []
+
+- title: "Automated Wrong Way Driving Detection Using Economical Sensor Technologies"
+  sponsor: "DOT/CCTRP"
+  sponsor_logo: "p6.png"
+  items: []

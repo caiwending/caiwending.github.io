@@ -1,0 +1,148 @@
+<div class="clearfix mxn2">
+    <div class="col sm-col-12 px2">
+
+        <h3 class="mt0 mb1">About me</h3>
+        <p class="justify small-line-height">
+            I am Caiwen Ding, an Associate Professor in the
+            <a class="link about" href="https://cse.umn.edu/cs" target="_blank">Department of Computer Science &amp; Engineering</a>
+            at the <a class="link about" href="https://twin-cities.umn.edu/" target="_blank">University of Minnesota, Twin Cities</a>
+            (since Aug 2024). Previously, I was an assistant professor at the University of Connecticut.
+            I received my Ph.D. from Northeastern University (NEU), Boston in 2019,
+            supervised by <a class="link about" href="https://web.northeastern.edu/yanzhiwang/" target="_blank">Prof. Yanzhi Wang</a>.
+        </p>
+
+        <div class="bg-light-yellow pre h5 px2 py1 border-left">
+            I am looking for highly motivated <strong>Ph.D./Postdoc</strong> students with strong interests in
+            FPGAs/GPUs programming, EDA/Architecture, or machine learning/deep learning, with full financial support.
+            Please email <a class="link about" href="mailto:cwen1988@gmail.com">cwen1988@gmail.com</a> with your CV and transcripts.
+        </div>
+
+        <p class="justify small-line-height">
+            My research interests include <span class="vis keyword">algorithm-system co-design of ML/AI</span>;
+            <span class="ml keyword">computer architecture and heterogeneous computing</span> (FPGAs/GPUs);
+            privacy-preserving machine learning; machine learning for electronic design automation (EDA);
+            neuromorphic computing; computer vision and natural language processing.
+        </p>
+        <p class="justify small-line-height">
+            My work has been published in top-tier venues including
+            DAC, ICCAD, ASPLOS, ISCA, MICRO, HPCA, CCS, Oakland, SC, FPGA, MLSys, NeurIPS, ICML, ICLR, CVPR, AAAI, ACL, EMNLP, IJCAI, ICRA, and DATE.
+            I am a recipient of the <b>NSF CAREER Award</b>, <b>Amazon Research Award</b>, and <b>CISCO Research Award</b>.
+            I received the Best Paper Award at 2025 ICLAD, Outstanding Student Paper Award at 2023 HPEC,
+            Best Paper Award at 2023 AAAI DCAA workshop, and Best Paper Award Nominations at DATE 2018 and 2021.
+        </p>
+    </div>
+</div>
+
+<!-- News -->
+<h3>News</h3>
+<div class="clearfix max-height-400 overflow-scroll">
+    <ul class="dark-gray" style="padding-left: 20px;">
+        {% for new in site.data.news %}
+        <li class="h5 header-font">[<b>{{new.date}}</b>] {{ new.title }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+<!-- Achievements Slideshow -->
+<h3>Selected Achievements</h3>
+<div class="slideshow">
+    <div class="slideshow-track">
+        <div class="slide active">
+            <img src="/assets/img/projects/LAD225.jpg" alt="Best Paper Award at ICLAD 2025">
+            <div class="slide-caption">Best Paper Award — ICLAD 2025</div>
+        </div>
+        <div class="slide">
+            <img src="/assets/img/projects/best-paper-2023.png" alt="Best Paper Award at AAAI DCAA 2023">
+            <div class="slide-caption">Best Paper Award — AAAI DCAA Workshop 2023</div>
+        </div>
+        <div class="slide">
+            <img src="/assets/img/projects/ICCAD_2022_TinyML_Certificate_accuracy.jpg" alt="First Place Winner in Accuracy, 2022 TinyML Design Contest">
+            <div class="slide-caption">First Place in Accuracy — 2022 ACM/IEEE TinyML Design Contest at ICCAD</div>
+        </div>
+        <div class="slide">
+            <img src="/assets/img/projects/ICCAD_2022_TinyML_Certificate_4th.jpg" alt="Fourth Place Winner, 2022 TinyML Design Contest">
+            <div class="slide-caption">Fourth Place Overall — 2022 ACM/IEEE TinyML Design Contest at ICCAD</div>
+        </div>
+    </div>
+    <button class="slide-btn slide-prev" onclick="slideMove(-1)"><i class="fa fa-chevron-left"></i></button>
+    <button class="slide-btn slide-next" onclick="slideMove(1)"><i class="fa fa-chevron-right"></i></button>
+    <div class="slide-dots">
+        <span class="dot active" onclick="slideTo(0)"></span>
+        <span class="dot" onclick="slideTo(1)"></span>
+        <span class="dot" onclick="slideTo(2)"></span>
+        <span class="dot" onclick="slideTo(3)"></span>
+    </div>
+</div>
+
+<script>
+(function(){
+  var idx = 0, slides = document.querySelectorAll('.slideshow .slide'),
+      dots = document.querySelectorAll('.slideshow .dot'), timer;
+  function show(n) {
+    idx = (n + slides.length) % slides.length;
+    for (var i = 0; i < slides.length; i++) {
+      slides[i].classList.toggle('active', i === idx);
+      dots[i].classList.toggle('active', i === idx);
+    }
+  }
+  window.slideMove = function(d) { show(idx + d); resetTimer(); };
+  window.slideTo = function(n) { show(n); resetTimer(); };
+  function resetTimer() { clearInterval(timer); timer = setInterval(function(){ show(idx+1); }, 5000); }
+  resetTimer();
+})();
+</script>
+
+<!-- Research Areas -->
+<h3>Research Areas</h3>
+<div class="clearfix mxn2">
+    <div class="col md-col-4 sm-col-6 xs-col-12 px1 mb2">
+        <div class="research-card" style="background: url('/assets/img/research-ml-systems.jpg') center/cover; height: 200px;">
+            <div class="card-overlay">
+                <div class="card-title">
+                    <a href="/pages/research/?tags=ml_systems">ML/AI Systems &amp; Architecture <i class="fa fa-external-link"></i></a>
+                </div>
+                <div class="card-desc">
+                    Algorithm-hardware co-design for efficient ML systems on FPGAs, GPUs, and emerging computing platforms.
+                    Model compression, acceleration, and efficient training/inference.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col md-col-4 sm-col-6 xs-col-12 px1 mb2">
+        <div class="research-card" style="background: url('/assets/img/research-privacy-ml.jpg') center/cover; height: 200px;">
+            <div class="card-overlay">
+                <div class="card-title">
+                    <a href="/pages/research/?tags=privacy_ml">Privacy-Preserving ML <i class="fa fa-external-link"></i></a>
+                </div>
+                <div class="card-desc">
+                    Secure computation for deep learning, homomorphic encryption-based inference,
+                    federated learning, and differential privacy techniques.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col md-col-4 sm-col-6 xs-col-12 px1 mb2">
+        <div class="research-card" style="background: url('/assets/img/research-eda-llm.jpg') center/cover; height: 200px;">
+            <div class="card-overlay">
+                <div class="card-title">
+                    <a href="/pages/research/?tags=ml_for_eda">ML for EDA &amp; LLM Agents <i class="fa fa-external-link"></i></a>
+                </div>
+                <div class="card-desc">
+                    Machine learning for electronic design automation, LLM-based Verilog generation,
+                    multi-agent systems for chip design and mathematical problem solving.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Research Sponsors -->
+<h3>Research Sponsors</h3>
+<div class="clearfix mxn2">
+    <div class="col sm-col-12 px2">
+        <img src="/assets/img/sponsor.png" alt="Research Sponsors" style="max-width: 400px; width: 100%; height: auto;">
+    </div>
+</div>

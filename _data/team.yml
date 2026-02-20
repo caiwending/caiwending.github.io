@@ -1,0 +1,106 @@
+current:
+  postdoc:
+    - name: Nuo Xu
+      area: Privacy Preserving Machine Learning, Efficient Machine Learning
+      photo: ""
+      url: ""
+
+  phd:
+    - name: Winson Chen
+      area: LLM-based Agent System
+      photo: "WinsonChen.jpeg"
+      url: "https://w1nson.github.io/"
+    - name: Dunzhi Zhou
+      area: LLM-based Agent System
+      photo: ""
+      url: ""
+    - name: Guangyan Sun 
+      area: Machine Learning System
+      photo: "GuangyanSun.jpg"
+      url: "https://www.guangyan.me/"
+    - name: Shiyang Li
+      area: Machine Learning System
+      photo: "ShiyangLi.jpg"
+      url: "https://nku-yang.github.io/"
+    - name: Peijun Li
+      area: ML for Hardware Design
+      photo: ""
+      url: ""
+    - name: Pengju Liu
+      area: ML for Hardware Design
+      photo: ""
+      url: ""
+    - name: Ronak Sahu
+      area: Adversarial Machine Learning
+      photo: ""
+      url: ""
+    - name: Amit Hasan
+      area: Model Compression, Computer Vision, NN Architecture-Hardware Co-design
+      photo: ""
+      url: ""
+    - name: Bin Lei
+      area: Machine Learning, LLM
+      photo: "BinLei.jpg"
+      url: ""
+    - name: Yuebo Luo
+      area: GPU, Graph Neural Networks, SW-HW Co-design
+      photo: "Yuebo-Luo.jpeg"
+      url: ""
+    - name: Jinwei Tang
+      area: LLM-based Agent System
+      photo: "JinweiTang.jpeg"
+      url: ""
+    - name: Kiran Thorat
+      area: Machine Learning for EDA, Graph Neural Networks
+      photo: ""
+      url: ""
+    - name: Xi Xie
+      area: GPU, FPGA
+      photo: ""
+      url: ""
+
+  master:
+    - name: Nicole Meng
+      area: Adversarial Machine Learning, Computer Vision
+      photo: ""
+      url: ""
+    - name: Matthew Li
+      area: Machine Learning, Frontend/Backend Development
+      photo: ""
+      url: ""
+    - name: Vishal Kancharla
+      area: Graph Neural Networks
+      photo: ""
+      url: ""
+
+alumni:
+  phd:
+    - name: Hongwu Peng
+      year: "2024"
+      position: Research Scientist at Adobe Research
+      url: "https://harveyp123.github.io/"
+    - name: Shanglin Zhou
+      year: "2024"
+      position: Senior Data Scientist at Walmart AI Lab
+      url: ""
+    - name: Shaoyi Huang
+      year: "2024"
+      position: Tenure-track Assistant Professor at Stevens Institute of Technology
+      url: ""
+    - name: Deniz Gurevin
+      note: Co-supervision with Prof. Omer Khan
+      position: Synopsys
+      url: ""
+
+  other:
+    - name: Ya-Sine Agrignan
+      role: Research Assistant (Master)
+      url: ""
+    - name: Stepan Gordeev
+      role: Postdoctoral Research Associate
+      position: Tenure-track Assistant Professor at Texas Christian University
+      url: ""
+    - name: Yanjun Lyu
+      role: Visiting Scholar
+      position: Ph.D. Student at UT Arlington
+      url: ""

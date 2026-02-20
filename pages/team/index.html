@@ -1,0 +1,150 @@
+---
+layout: default
+title: "Team"
+header_title: Team
+subtitle: ""
+include_header: page_header.html
+nav_item: Team
+---
+
+<h3>Current Members</h3>
+
+<h4 class="mt2">Post-doc</h4>
+<div class="team-grid mb3">
+    {% for member in site.data.team.current.postdoc %}
+    <div class="team-member">
+        <div class="team-photo">
+            {% if member.photo and member.photo != "" %}
+            <img src="/assets/img/team/{{ member.photo }}" alt="{{ member.name }}">
+            {% else %}
+            <div class="team-photo-placeholder">
+                <i class="fa fa-user"></i>
+            </div>
+            {% endif %}
+        </div>
+        <div class="team-info">
+            <div class="team-name">
+                {% if member.url and member.url != "" %}
+                <a href="{{ member.url }}" target="_blank">{{ member.name }} <i class="fa fa-external-link" style="font-size:.7rem;opacity:.5;"></i></a>
+                {% else %}
+                {{ member.name }}
+                {% endif %}
+            </div>
+            <div class="team-area">{{ member.area }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h4 class="mt2">Ph.D. Students</h4>
+<div class="team-grid mb3">
+    {% for member in site.data.team.current.phd %}
+    <div class="team-member">
+        <div class="team-photo">
+            {% if member.photo and member.photo != "" %}
+            <img src="/assets/img/team/{{ member.photo }}" alt="{{ member.name }}">
+            {% else %}
+            <div class="team-photo-placeholder">
+                <i class="fa fa-user"></i>
+            </div>
+            {% endif %}
+        </div>
+        <div class="team-info">
+            <div class="team-name">
+                {% if member.url and member.url != "" %}
+                <a href="{{ member.url }}" target="_blank">{{ member.name }} <i class="fa fa-external-link" style="font-size:.7rem;opacity:.5;"></i></a>
+                {% else %}
+                {{ member.name }}
+                {% endif %}
+            </div>
+            <div class="team-area">{{ member.area }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h4 class="mt2">Master Students</h4>
+<div class="team-grid mb3">
+    {% for member in site.data.team.current.master %}
+    <div class="team-member">
+        <div class="team-photo">
+            {% if member.photo and member.photo != "" %}
+            <img src="/assets/img/team/{{ member.photo }}" alt="{{ member.name }}">
+            {% else %}
+            <div class="team-photo-placeholder">
+                <i class="fa fa-user"></i>
+            </div>
+            {% endif %}
+        </div>
+        <div class="team-info">
+            <div class="team-name">
+                {% if member.url and member.url != "" %}
+                <a href="{{ member.url }}" target="_blank">{{ member.name }} <i class="fa fa-external-link" style="font-size:.7rem;opacity:.5;"></i></a>
+                {% else %}
+                {{ member.name }}
+                {% endif %}
+            </div>
+            <div class="team-area">{{ member.area }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<hr class="mt3 mb3">
+
+<h3>Alumni</h3>
+
+<h4 class="mt2">Ph.D. Alumni</h4>
+<div class="clearfix mb2">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>First Employment</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for member in site.data.team.alumni.phd %}
+            <tr>
+                <td>
+                    {% if member.url and member.url != "" %}
+                    <a href="{{ member.url }}" target="_blank">{{ member.name }}</a>
+                    {% else %}
+                    {{ member.name }}
+                    {% endif %}
+                    {% if member.note %} <span class="gray h6">({{ member.note }})</span>{% endif %}
+                </td>
+                <td>{{ member.position }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<h4 class="mt2">Post-doc, Visiting Scholars &amp; Masters Alumni</h4>
+<div class="clearfix mb2">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Current Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for member in site.data.team.alumni.other %}
+            <tr>
+                <td>
+                    {% if member.url and member.url != "" %}
+                    <a href="{{ member.url }}" target="_blank">{{ member.name }}</a>
+                    {% else %}
+                    {{ member.name }}
+                    {% endif %}
+                </td>
+                <td>{{ member.role }}</td>
+                <td>{% if member.position %}{{ member.position }}{% endif %}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

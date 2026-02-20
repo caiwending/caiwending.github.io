@@ -1,0 +1,60 @@
+# Website settings
+baseurl: "/"
+url: "http://caiwending.github.io"
+icon: "/assets/img/icons/cat.ico"
+
+# Internal nav
+nav:
+  main:
+    Publications: "/pages/research"
+    Team: "/pages/team"
+    Teaching: "/pages/teaching"
+    Projects: "/pages/projects"
+    "Awards & Activities": "/pages/awards"
+    News: "/pages/news"
+
+# Bio settings
+name: "Caiwen Ding"
+description: "Associate Professor at University of Minnesota. Research in ML/AI systems, computer architecture, privacy-preserving ML, and EDA."
+thumbnail_path: "caiwen.jpg"
+website_repo_url: "https://github.com/caiwending/"
+
+# URLs
+contact_urls:
+  email:
+    url: "mailto:dingc@umn.edu"
+    label: "Email"
+    value: "dingc@umn.edu"
+    icon: "envelope-square"
+  scholar:
+    url: "https://scholar.google.com/citations?user=7hR0r_EAAAAJ&hl=en"
+    label: "Google Scholar"
+    icon: "graduation-cap"
+  github:
+    url: "https://github.com/UMN-APEX-Lab"
+    label: "GitHub"
+    icon: "github-square"
+  dblp:
+    url: "https://dblp.org/pid/175/2489.html"
+    label: "DBLP"
+    icon: "book"
+  semantic:
+    url: "https://www.semanticscholar.org/author/Caiwen-Ding/2881873"
+    label: "Semantic Scholar"
+    icon: "search"
+
+# Jekyll build settings
+paginate: 10
+paginate_path: "/writing/page:num"
+permalink: "/writing/:year/:month/:day/:title/"
+sass:
+  sass_dir: "/assets/css"
+  style: :compressed
+highlighter: rouge
+timezone: "America/Chicago"
+
+# Plugins (GitHub Pages only support a few)
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate

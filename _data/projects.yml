@@ -1,0 +1,903 @@
+# Selected Conference Publications
+
+- name: "GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning"
+  date: "2026"
+  publish: ICLR 2026
+  authors: Weitai Kang, Bin Lei, Gaowen Liu, <strong>Caiwen Ding</strong>, Yan Yan
+  image: "GuirlVG.png"
+  details: "https://arxiv.org/abs/2508.04389"
+  cate:
+    - "ml_systems"
+    - "llm_agents"
+
+- name: "ULD-Net: Enabling UltraLow-Degree Fully Polynomial Networks for Homomorphically Encrypted Inference"
+  date: "2026"
+  publish: ICLR 2026
+  authors: Xi Xie, Ran Ran, Jiahui Zhao, Bin Lei, Zhijie Jerry Shi, Wujie Wen, <strong>Caiwen Ding</strong>
+  image: "ULD-NET.png"
+  details: "https://openreview.net/pdf?id=Jngc6oTe8R"
+  cate:
+    - "privacy_ml"
+    - "ml_systems"
+
+- name: "HDLxGraph: Bridging Large Language Models and HDL Repositories via HDL Graph Databases"
+  date: "2026"
+  publish: ASP-DAC 2026
+  authors: Pingqing Zheng, Jiayin Qin, Fuqi Zhang, Niraj Chitla, Zishen Wan, Shang Wu, Yu Cao, <strong>Caiwen Ding</strong>, Yang Zhao
+  image: "HDLxGraph.png"
+  details: "https://arxiv.org/abs/2505.15701"
+  cate:
+    - "ml_for_eda"
+    - "llm_agents"
+
+- name: "InfantAgent-Next: A Multimodal Generalist Agent for Automated Computer Interaction"
+  date: "2025"
+  publish: NeurIPS 2025
+  authors: Bin Lei, Weitai Kang, Zijian Zhang, Winson Chen, Xi Xie, Shan Zuo, Mimi Xie, Ali Payani, Mingyi Hong, Yan Yan, <strong>Caiwen Ding</strong>
+  image: "InfantAgent.png"
+  details: "https://arxiv.org/abs/2505.10887"
+  cate:
+    - "llm_agents"
+    - "ml_systems"
+
+- name: "Harmony in Divergence: Towards Fast, Accurate, and Memory-efficient Zeroth-order LLM Fine-tuning"
+  date: "2025"
+  publish: NeurIPS 2025
+  authors: Qitao Tan, Jun Liu, Zheng Zhan, <strong>Caiwen Ding</strong>, Yanzhi Wang, Xiaolong Ma, Jaewoo Lee, Jin Lu, Geng Yuan
+  image: "Zeroth-order.png"
+  details: "https://arxiv.org/abs/2502.03304"
+  cate:
+    - "ml_systems"
+
+- name: "MAHL: Multi-Agent LLM-Guided Hierarchical Chiplet Design with Adaptive Debugging"
+  date: "2025"
+  publish: ICCAD 2025
+  authors: Jinwei Tang, Jiayin Qin, Nuo Xu, Pragnya Sudershan Nalla, Yu Cao, Yang Zhao, <strong>Caiwen Ding</strong>
+  image: "MAHL.png"
+  details: "https://arxiv.org/abs/2508.14053"
+  cate:
+    - "ml_for_eda"
+    - "llm_agents"
+
+- name: "GROOT: Graph Edge Re-growth and Partitioning for the Verification of Large Designs in Logic Synthesis"
+  date: "2025"
+  publish: ICCAD 2025
+  authors: Kiran Thorat, Hongwu Peng, Yuebo Luo, Xi Xie, Shaoyi Huang, Amit Hasan, Jiahui Zhao, Yingjie Li, Zhijie Shi, Cunxi Yu, <strong>Caiwen Ding</strong>
+  image: "GROOT.png"
+  details: "https://arxiv.org/abs/2511.18297"
+  cate:
+    - "ml_for_eda"
+    - "gnn"
+
+- name: "HiVeGen: Hierarchical LLM-based Verilog Generation for Scalable Chip Design"
+  date: "2025"
+  publish: "ICLAD 2025<br/> <span class='orange'><strong>Best Paper Award</strong></span>"
+  authors: Jinwei Tang, Jiayin Qin, Kiran Thorat, Chen Zhu-Tian, Yu Cao, Yang Zhao, <strong>Caiwen Ding</strong>
+  image: "HiVeGen.png"
+  details: "https://arxiv.org/abs/2412.05393"
+  cate:
+    - "ml_for_eda"
+    - "llm_agents"
+
+- name: "Advancing Adversarial Robustness in GNeRFs: The IL2-NeRF Attack"
+  date: "2025"
+  publish: CVPR 2025
+  authors: Nicole Meng, Caleb Manicke, Ronak Sahu, <strong>Caiwen Ding</strong>, Yingjie Lao
+  image: "IL2-NeRF.png"
+  details: "https://openaccess.thecvf.com/content/CVPR2025/papers/Meng_Advancing_Adversarial_Robustness_in_GNeRFs_The_IL2-NeRF_Attack_CVPR_2025_paper.pdf"
+  cate:
+    - "cv_nlp"
+
+- name: "RTop-K: Ultra-Fast Row-Wise Top-K Selection for Neural Network Acceleration on GPUs"
+  date: "2025"
+  publish: ICLR 2025
+  authors: Xi Xie*, Yuebo Luo*, Hongwu Peng*, <strong>Caiwen Ding</strong>
+  image: "RTop-K.png"
+  details: "https://arxiv.org/abs/2409.00822"
+  cate:
+    - "ml_systems"
+    - "architecture"
+
+- name: "Position-Enhanced Gradient Attack (PEGA) on Medical Language Models"
+  date: "2025"
+  publish: MMAsia 2025
+  authors: Nuo Xu, Christopher Stanley, John Gounley, Heidi Hanson, Chang Ge, <strong>Caiwen Ding</strong>
+  image: "PEGA.png"
+  details: "https://dl.acm.org/doi/10.1145/3743093.3771065"
+  cate:
+    - "privacy_ml"
+    - "cv_nlp"
+
+- name: "DR-CircuitGNN: Training Acceleration of Heterogeneous Circuit Graph Neural Network on GPUs"
+  date: "2025"
+  publish: ICS 2025
+  authors: Yuebo Luo, Shiyang Li, Junran Tao, Kiran Gautam Thorat, Xi Xie, Hongwu Peng, Nuo Xu, <strong>Caiwen Ding</strong>, Shaoyi Huang
+  image: "DR-CircuitGNN.png"
+  details: "https://arxiv.org/abs/2508.16769"
+  cate:
+    - "gnn"
+    - "architecture"
+
+- name: "Graph Convolutional Network Acceleration Using Adiabatic Superconductor Josephson Devices"
+  date: "2025"
+  publish: ICS 2025
+  authors: Zhengang Li, Hongwu Peng, Xuan Shen, Masoud Zabihi, Xi Xie, Geng Yuan, Yanzhi Wang, Olivia Chen, <strong>Caiwen Ding</strong>
+  image: "GCNN.png"
+  details: "https://dl.acm.org/doi/10.1145/3721145.3730434"
+  cate:
+    - "gnn"
+    - "emerging_tech"
+
+- name: "TROJAN-GUARD: Hardware Trojans Detection Using GNN in RTL Designs"
+  date: "2025"
+  publish: IJCNN 2025
+  authors: Kiran Thorat, Amit Hasan, <strong>Caiwen Ding</strong>, Zhijie Shi
+  image: "TROJAN-GUARD.png"
+  details: "https://arxiv.org/abs/2506.17894"
+  cate:
+    - "gnn"
+    - "ml_for_eda"
+
+- name: "LUMEN-PRO: Automating Multi-Task Learning on Optical Neural Networks with Weight Sharing and Physical Rotation"
+  date: "2025"
+  publish: Scientific Reports 2025
+  authors: Shanglin Zhou, Yingjie Li, Weilu Gao, Cunxi Yu, <strong>Caiwen Ding</strong>
+  image: "LUMEN-PRO.png"
+  details: "https://www.nature.com/articles/s41598-025-97262-2"
+  type: journal
+  cate:
+    - "emerging_tech"
+
+- name: "MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems"
+  date: "2024"
+  publish: NeurIPS 2024
+  authors: Bin Lei, Yi Zhang, Shan Zuo, Ali Payani, <strong>Caiwen Ding</strong>
+  image: "MACM.png"
+  details: "https://arxiv.org/abs/2404.04735"
+  cate:
+    - "llm_agents"
+
+  cate:
+- name: "AdaDiff: Accelerating Diffusion Models through Step-Wise Adaptive Computation"
+  date: "2024"
+  publish: ECCV 2024
+  authors: Shengkun Tang, Yaqing Wang, <strong>Caiwen Ding</strong>, Yi Liang, Yao Li, Dongkuan Xu
+  details: "https://arxiv.org/abs/2309.17074"
+  list_only: true
+  cate:
+    - "ml_systems"
+    - "cv_nlp"
+
+  cate:
+- name: "AdaPI: Facilitating DNN Model Adaptivity for Efficient Private Inference in Edge Computing"
+  date: "2024"
+  publish: ICCAD 2024
+  authors: Tong Zhou, Jiahui Zhao, Yukui Luo, Xi Xie, Wujie Wen, <strong>Caiwen Ding</strong>, Xiaolin Xu
+  details: "https://arxiv.org/abs/2407.05633"
+  list_only: true
+  cate:
+    - "privacy_ml"
+
+  attach:
+- name: "MaxK-GNN: Towards Theoretical Speed Limits for Accelerating Graph Neural Networks Training"
+  date: "2024"
+  publish: ASPLOS 2024
+  details: "https://arxiv.org/abs/2312.08656"
+  authors: Hongwu Peng*, Xi Xie*, Kaustubh Shivdikar, MD Amit Hasan, Jiahui Zhao, Shaoyi Huang, Omer Khan, David Kaeli, <strong>Caiwen Ding</strong>
+  list_only: true
+  attach:
+    - url: "https://github.com/harveyp123/MaxK-GNN"
+      icon: github
+      label: Code
+  cate:
+    - "gnn"
+    - "architecture"
+
+  cate:
+- name: "PruneGNN: An Optimized Algorithm-Hardware Framework for Graph Neural Network Pruning"
+  date: "2024"
+  publish: HPCA 2024
+  authors: Deniz Gurevin, Mohsin Shan, Shaoyi Huang, MD Amit Hasan, <strong>Caiwen Ding</strong>, Omer Khan
+  details: "https://ieeexplore.ieee.org/document/10476445"
+  list_only: true
+  cate:
+    - "gnn"
+    - "architecture"
+
+  cate:
+- name: "Evaluating Emerging AI/ML Accelerators: IPU, RDU, and NVIDIA/AMD GPUs"
+  date: "2024"
+  publish: ICPE 2024
+  authors: Hongwu Peng, <strong>Caiwen Ding</strong>, Tong Geng, Sutanay Choudhury, Kevin Barker, Ang Li
+  details: "https://arxiv.org/abs/2311.04417"
+  list_only: true
+  cate:
+    - "architecture"
+
+  cate:
+- name: "Quasar-ViT: Hardware-Oriented Quantization-Aware Architecture Search for Vision Transformers"
+  date: "2024"
+  publish: ICS 2024
+  authors: Zhengang Li, Alec Lu, Yanyue Xie, Zhenglun Kong, Mengshu Sun, Hao Tang, Zhong Jia Xue, Peiyan Dong, <strong>Caiwen Ding</strong>, Yanzhi Wang, Xue Lin, Zhenman Fang
+  details: "https://arxiv.org/abs/2407.18175"
+  list_only: true
+  cate:
+    - "architecture"
+    - "cv_nlp"
+
+  cate:
+- name: "A Fully-Customized RTL-to-GDS Design Automation Flow for Adiabatic Quantum-Flux-Parametron Superconducting Circuits"
+  date: "2024"
+  publish: DATE 2024
+  authors: Yanyue Xie, Peiyan Dong, Geng Yuan, Zhengang Li, Masoud Zabihi, Chao Wu, Sung-En Chang, Xufeng Zhang, Xue Lin, <strong>Caiwen Ding</strong>, Nobuyuki Yoshikawa, Olivia Chen, Yanzhi Wang
+  details: "https://arxiv.org/abs/2407.18209"
+  list_only: true
+  cate:
+    - "ml_for_eda"
+    - "emerging_tech"
+
+  cate:
+- name: "Collaborative Multi-Object Tracking with Conformal Uncertainty Propagation"
+  date: "2024"
+  publish: IEEE RA-L 2024
+  authors: Sanbao Su, Songyang Han, Yiming Li, Zhili Zhang, Chen Feng, <strong>Caiwen Ding</strong>, Fei Miao
+  details: "https://arxiv.org/abs/2303.14346"
+  type: journal
+  list_only: true
+  cate:
+    - "cv_nlp"
+
+  cate:
+- name: "LinGCN: Structural Linearized Graph Convolutional Network for Homomorphically Encrypted Inference"
+  date: "2023"
+  publish: NeurIPS 2023
+  authors: Hongwu Peng*, Ran Ran*, Yukui Luo, Jiahui Zhao, Shaoyi Huang, Kiran Thorat, Tong Geng, Chenghong Wang, Xiaolin Xu, Wujie Wen, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2309.14331"
+  list_only: true
+  cate:
+    - "privacy_ml"
+    - "gnn"
+
+  cate:
+- name: "AQ2PNN: Enabling Two-party Privacy-Preserving Deep Neural Network Inference with Adaptive Quantization"
+  date: "2023"
+  publish: MICRO 2023
+  authors: Yukui Luo, Nuo Xu, Hongwu Peng, Chenghong Wang, Shijin Duan, Kaleel Mahmood, Wujie Wen, <strong>Caiwen Ding</strong>, Xiaolin Xu
+  details: "https://dl.acm.org/doi/10.1145/3613424.3614297"
+  list_only: true
+  cate:
+    - "privacy_ml"
+    - "architecture"
+
+  cate:
+- name: "Accel-GCN: High-Performance GPU Accelerator Design for Graph Convolution Networks"
+  date: "2023"
+  publish: ICCAD 2023
+  authors: Xi Xie*, Hongwu Peng*, MD Amit Hasan, Shaoyi Huang, Jiahui Zhao, Haowen Fang, Wei Zhang, Tong Geng, Omer Khan, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2308.11825"
+  list_only: true
+  cate:
+    - "gnn"
+    - "architecture"
+
+  cate:
+- name: "AutoReP: Automatic ReLU Replacement for Fast Private Network Inference"
+  date: "2023"
+  publish: ICCV 2023
+  authors: Hongwu Peng*, Shaoyi Huang*, Tong Zhou*, Yukui Luo, Chenghong Wang, Zigeng Wang, Jiahui Zhao, Xi Xie, Ang Li, Tony Geng, Kaleel Mahmood, Wujie Wen, Xiaolin Xu, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2308.10134"
+  list_only: true
+  cate:
+    - "privacy_ml"
+    - "cv_nlp"
+
+  cate:
+- name: "SpENCNN: Orchestrating Encoding and Sparsity for Fast Homomorphically Encrypted Neural Network Inference"
+  date: "2023"
+  publish: ICML 2023
+  authors: Ran Ran, Xinwei Luo, Wei Wang, Tao Liu, Gang Quan, Xiaolin Xu, <strong>Caiwen Ding</strong>, Wujie Wen
+  details: "https://openreview.net/pdf?id=-syx4GzWdTM"
+  list_only: true
+  cate:
+    - "privacy_ml"
+
+  cate:
+- name: "Spectral-DP: Differentially Private Deep Learning through Spectral Perturbation and Filtering"
+  date: "2023"
+  publish: IEEE S&P (Oakland) 2023
+  authors: Ce Feng*, Nuo Xu*, Wujie Wen, Parv Venkitasubramaniam, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2307.13231"
+  list_only: true
+  cate:
+    - "privacy_ml"
+
+  cate:
+- name: "Towards Lossless Head Pruning through Automatic Peer Distillation for Large Language Models"
+  date: "2023"
+  publish: IJCAI 2023
+  authors: Bingbing Li, Zigeng Wang, Shaoyi Huang, Mikhail Bragin, Ji Li, <strong>Caiwen Ding</strong>
+  details: "https://www.ijcai.org/proceedings/2023/0568.pdf"
+  list_only: true
+  cate:
+    - "ml_systems"
+    - "cv_nlp"
+
+  cate:
+- name: "TANGO: Re-Thinking Quantization for Graph Neural Network Training on GPUs"
+  date: "2023"
+  publish: SC 2023
+  authors: Shiyang Chen, Da Zheng, <strong>Caiwen Ding</strong>, Chengying Huan, Yuede Ji, Hang Liu
+  details: "https://arxiv.org/abs/2308.00890"
+  list_only: true
+  cate:
+    - "gnn"
+    - "architecture"
+
+  cate:
+- name: "You Need Multiple Exiting: Dynamic Early Exiting for Accelerating Unified Vision Language Model"
+  date: "2023"
+  publish: CVPR 2023
+  authors: Shengkun Tang, Yaqing Wang, Zhenglun Kong, Tianchi Zhang, Yao Li, <strong>Caiwen Ding</strong>, Yanzhi Wang, Yi Liang, Dongkuan Xu
+  details: "https://arxiv.org/abs/2211.11152"
+  list_only: true
+  cate:
+    - "ml_systems"
+    - "cv_nlp"
+
+  cate:
+- name: "Accelerating Dataset Distillation via Model Augmentation"
+  date: "2023"
+  publish: CVPR 2023
+  authors: Lei Zhang*, Jie Zhang*, Bowen Lei, Subhabrata Mukherjee, Xiang Pan, Bo Zhao, <strong>Caiwen Ding</strong>, Yao Li, Dongkuan Xu
+  details: "https://arxiv.org/abs/2212.06152"
+  list_only: true
+  cate:
+    - "ml_systems"
+    - "cv_nlp"
+
+  cate:
+- name: "Creating a Dataset Supporting Translation Between OpenMP Fortran and C++ Code"
+  date: "2023"
+  publish: "HPEC 2023 <span class='orange'><strong>Outstanding Student Paper Award</strong></span>"
+  authors: Bin Lei, <strong>Caiwen Ding</strong>, Le Chen, Pei-Hung Lin, Chunhua Liao
+  details: "https://arxiv.org/abs/2307.07686"
+  list_only: true
+  cate:
+    - "ml_systems"
+
+  cate:
+- name: "PASNet: Polynomial Architecture Search Framework for Two-party Computation-based Secure Neural Network Deployment"
+  date: "2023"
+  publish: DAC 2023
+  authors: Hongwu Peng*, Shanglin Zhou*, Yukui Luo*, Nuo Xu, Shijin Duan, Ran Ran, Jiahui Zhao, Chenghong Wang, Tong Geng, Wujie Wen, Xiaolin Xu, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2306.15513"
+  list_only: true
+  cate:
+    - "privacy_ml"
+    - "architecture"
+
+  cate:
+- name: "Physics-aware Roughness Optimization for Diffractive Optical Neural Networks"
+  date: "2023"
+  publish: DAC 2023
+  authors: Shanglin Zhou*, Yingjie Li*, Minhan Lou, Weilu Gao, Zhijie Shi, Cunxi Yu, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2304.01500"
+  list_only: true
+  cate:
+    - "ml_for_eda"
+    - "emerging_tech"
+
+  cate:
+- name: "Dynamic Sparse Training via Balancing the Exploration-Exploitation Trade-off"
+  date: "2023"
+  publish: DAC 2023
+  authors: Shaoyi Huang, Bowen Lei, Dongkuan Xu, Hongwu Peng, Yue Sun, Mimi Xie, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2211.16667"
+  list_only: true
+  cate:
+    - "ml_systems"
+
+  cate:
+- name: "Neurogenesis Dynamics-inspired Spiking Neural Network Training Acceleration"
+  date: "2023"
+  publish: DAC 2023
+  authors: Shaoyi Huang, Haowen Fang, Kaleel Mahmood, Bowen Lei, Nuo Xu, Bin Lei, Yue Sun, Dongkuan Xu, Wujie Wen, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2304.12214"
+  list_only: true
+  cate:
+    - "ml_systems"
+    - "emerging_tech"
+
+  cate:
+- name: "Workload Balancing to Unlock Extreme Parallelism for Graph Neural Network Acceleration"
+  date: "2023"
+  publish: ISPASS 2023
+  authors: Mohsin Shan, Deniz Gurevin, Jared Nye, <strong>Caiwen Ding</strong>, Omer Khan
+  list_only: true
+  cate:
+    - "gnn"
+    - "architecture"
+
+  cate:
+- name: "Uncertainty Quantification of Collaborative Detection for Self-Driving"
+  date: "2023"
+  publish: ICRA 2023
+  authors: Sanbao Su, Yiming Li, Sihong He, Songyang Han, Chen Feng, <strong>Caiwen Ding</strong>, Fei Miao
+  details: "https://arxiv.org/abs/2209.08162"
+  list_only: true
+  cate:
+    - "cv_nlp"
+
+  cate:
+- name: "A Multi-Agent Reinforcement Learning Approach For Safe and Efficient Behavior Planning Of Connected Autonomous Vehicles"
+  date: "2023"
+  publish: IEEE T-ITS 2023
+  authors: Songyang Han, Shanglin Zhou, Jiangwei Wang, Lynn Pepin, <strong>Caiwen Ding</strong>, Jie Fu, Fei Miao
+  details: "https://arxiv.org/abs/2003.04371"
+  type: journal
+  list_only: true
+  cate:
+    - "ml_systems"
+
+  cate:
+- name: "Surrogate Lagrangian Relaxation: A Path To Retrain-free Deep Neural Network Pruning"
+  date: "2023"
+  publish: ACM TODAES 2023
+  authors: Shanglin Zhou, Mikhail A Bragin, Deniz Gurevin, Lynn Pepin, Fei Miao, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2304.04120"
+  type: journal
+  list_only: true
+  cate:
+    - "ml_systems"
+
+  cate:
+- name: "Exploiting Intrinsic Redundancies in Dynamic Graph Neural Networks For Processing Efficiency"
+  date: "2023"
+  publish: IEEE CAL 2023
+  authors: Deniz Gurevin, <strong>Caiwen Ding</strong>, Omer Khan
+  type: journal
+  list_only: true
+  cate:
+    - "gnn"
+    - "architecture"
+
+  cate:
+- name: "Deep Learning for Automated Quantification of Irradiation Defects in TEM Data"
+  date: "2023"
+  publish: Microscopy and Microanalysis 2023
+  authors: Rajat Sainju, Graham Roberts, Wei-Ying Chen, Brian Hutchinson, Qian Yang, <strong>Caiwen Ding</strong>, Danny J Edwards, Meimei Li, Yuanyuan Zhu
+  type: journal
+  list_only: true
+  cate:
+    - "cv_nlp"
+
+  cate:
+- name: "Shared Information-Based Safe And Efficient Behavior Planning For Connected Autonomous Vehicles"
+  date: "2023"
+  publish: "AAAI DCAA Workshop 2023 <span class='orange'><strong>Best Paper Award</strong></span>"
+  authors: Songyang Han, Shanglin Zhou, Lynn Pepin, Jiangwei Wang, <strong>Caiwen Ding</strong>, Fei Miao
+  details: "https://arxiv.org/abs/2302.04321"
+  type: workshop
+  list_only: true
+  cate:
+    - "ml_systems"
+
+  cate:
+- name: "FORMS: Fine-grained Polarized ReRAM-based In-situ Computation for Mixed-signal DNN Accelerator"
+  date: "2021"
+  publish: ISCA 2021
+  authors: Geng Yuan*, Payman Behnam*, Ali Shafiee, Zhengang Li, Xiaolong Ma, Hang Liu, Xuehai Qian, Mahdi Bojnordi, Yanzhi Wang, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2106.09144"
+  list_only: true
+  cate:
+    - "architecture"
+    - "emerging_tech"
+
+  cate:
+- name: "CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices"
+  date: "2017"
+  publish: MICRO 2017
+  authors: <strong>Caiwen Ding</strong>, Yanzhi Wang, Siyu Liao, Zhe Li, Yu Bai, et al.
+  details: "https://arxiv.org/abs/1708.08917"
+  list_only: true
+  cate:
+    - "architecture"
+    - "ml_systems"
+
+  cate:
+- name: "REQ-YOLO: A Resource-Aware, Efficient Quantization Framework for Object Detection on FPGAs"
+  date: "2019"
+  publish: FPGA 2019
+  authors: <strong>Caiwen Ding</strong>*, Shuo Wang*, Ning Liu, Kaidi Xu, Yanzhi Wang, Yun Liang
+  details: "https://arxiv.org/abs/1909.13396"
+  list_only: true
+  cate:
+    - "architecture"
+    - "cv_nlp"
+
+  cate:
+- name: "E-RNN: Design Optimization for Efficient Recurrent Neural Networks in FPGAs"
+  date: "2019"
+  publish: HPCA 2019
+  authors: Zhe Li*, <strong>Caiwen Ding</strong>*, Siyue Wang, Wujie Wen, Youwei Zhuo, Chang Liu, Qinru Qiu, Wenyao Xu, Xue Lin, Yanzhi Wang
+  details: "https://arxiv.org/abs/1812.07106"
+  list_only: true
+  cate:
+    - "architecture"
+    - "ml_systems"
+
+# ============================================================
+# Additional Publications (Pre-2023) — Rendered as simplified list
+# ============================================================
+
+# --- 2022 Conference Papers ---
+
+- name: "Analyzing and Defending against Membership Inference Attacks in Natural Language Processing Classification"
+  date: "2022"
+  publish: IEEE BigData 2022
+  authors: Yijue Wang, Nuo Xu, Shaoyi Huang, Kaleel Mahmood, Dan Guo, <strong>Caiwen Ding</strong>, Wujie Wen, Sanguthevar Rajasekaran
+  list_only: true
+
+- name: "Cryptographic Inferences for Video Deep Neural Networks"
+  date: "2022"
+  publish: CCS 2022 (Poster)
+  authors: Bingyu Liu, Rujia Wang, Zhongjie Ba, Shanglin Zhou, <strong>Caiwen Ding</strong>, Yuan Hong
+  list_only: true
+
+- name: "On the Design of Quantum Graph Convolutional Neural Network in the NISQ Era and Beyond"
+  date: "2022"
+  publish: ICCD 2022
+  authors: Zhirui Hu, Jinyang Li, Zhenyu Pan, Shanglin Zhou, Lei Yang, <strong>Caiwen Ding</strong>, Omer Khan, Tong Geng, Weiwen Jiang
+  list_only: true
+
+- name: "Towards Real-time Temporal Graph Learning"
+  date: "2022"
+  publish: ICCD 2022
+  authors: Deniz Gurevin, Mohsin Shan, Tong Geng, Weiwen Jiang, <strong>Caiwen Ding</strong>, Omer Khan
+  list_only: true
+
+- name: "CoDG-ReRAM: An Algorithm-Hardware Co-design to Accelerate Semi-Structured GNNs on ReRAM"
+  date: "2022"
+  publish: ICCD 2022
+  authors: Yixuan Luo*, Payman Behnam*, Kiran Thorat, Zhuo Liu, Hongwu Peng, Shaoyi Huang, Shu Zhou, Omer Khan, Alexey Tumanov, <strong>Caiwen Ding</strong>, Tong Geng
+  list_only: true
+
+- name: "Towards Sparsification of Graph Neural Networks"
+  date: "2022"
+  publish: ICCD 2022
+  authors: Hongwu Peng*, Deniz Gurevin*, Shaoyi Huang, Tong Geng, Weiwen Jiang, Omer Khan, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "EVE: Environmental Adaptive Neural Network Models for Low-power Energy Harvesting System"
+  date: "2022"
+  publish: ICCAD 2022
+  authors: Sahidul Islam*, Shanglin Zhou*, Ran Ran, Yu-Fang Jin, Wujie Wen, <strong>Caiwen Ding</strong>, Mimi Xie
+  list_only: true
+
+- name: "All-in-One: A Highly Representative DNN Pruning Framework for Edge Devices with Dynamic Power Management"
+  date: "2022"
+  publish: ICCAD 2022
+  authors: Yifan Gong, Zheng Zhan, Pu Zhao, Yushu Wu, Chao Wu, <strong>Caiwen Ding</strong>, Weiwen Jiang, Minghai Qin, Yanzhi Wang
+  list_only: true
+
+- name: "Sparse Progressive Distillation: Resolving Overfitting under Pretrain-and-Finetune Paradigm"
+  date: "2022"
+  publish: ACL 2022
+  authors: Shaoyi Huang*, Dongkuan Xu*, Ian En-Hsu Yen, Yijue Wang, Sung-En Chang, Bingbing Li, Shiyang Chen, Mimi Xie, Sanguthevar Rajasekaran, Hang Liu, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "A Length Adaptive Algorithm-Hardware Co-design of Transformer on FPGA Through Sparse Attention and Dynamic Pipelining"
+  date: "2022"
+  publish: "DAC 2022 <span class='orange'><strong>Publicity Paper</strong></span>"
+  authors: Hongwu Peng*, Shaoyi Huang*, Shiyang Chen, Bingbing Li, Tong Geng, Ang Li, Weiwen Jiang, Wujie Wen, Jinbo Bi, Hang Liu, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "QuClassi: A Hybrid Deep Neural Network Architecture based on Quantum State Fidelity"
+  date: "2022"
+  publish: MLSys 2022
+  authors: Samuel A. Stein, Betis Baheri, Daniel Chen, Ying Mao, Qiang Guan, Ang Li, Shuai Xu, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "Enabling Super-Fast Deep Learning on Tiny Energy-Harvesting IoT Devices"
+  date: "2022"
+  publish: DATE 2022
+  authors: Sahidul Islam, Jieren Deng, Shanglin Zhou, Chen Pan, <strong>Caiwen Ding</strong>, Mimi Xie
+  list_only: true
+
+# --- 2021 Conference Papers ---
+
+- name: "TAG: Transformer Attack from Gradient"
+  date: "2021"
+  publish: EMNLP 2021 (Findings)
+  authors: Jieren Deng*, Yijue Wang*, Ji Li, Chenghong Wang, Chao Shang, Hang Liu, Sanguthevar Rajasekaran, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "A Secure and Efficient Federated Learning Framework for NLP"
+  date: "2021"
+  publish: "EMNLP 2021 <strong>(Oral)</strong>"
+  authors: Jieren Deng*, Chenghong Wang*, Xianrui Meng, Yijue Wang, Ji Li, Sheng Lin, Shuo Han, Fei Miao, Sanguthevar Rajasekaran, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "E.T.: Re-Thinking Self-Attention for Transformer Models on GPUs"
+  date: "2021"
+  publish: SC 2021
+  authors: Shiyang Chen*, Shaoyi Huang*, Santosh Pandey, Bingbing Li, Guang Gao, Long Zheng, <strong>Caiwen Ding</strong>, Hang Liu
+  list_only: true
+
+- name: "Dr.Top-k: Delegate-Centric Top-k Computation on GPUs"
+  date: "2021"
+  publish: SC 2021
+  authors: Anil Gaihre, Da Zheng, Scott Weitze, Lingda Li, Shuaiwen Leon Song, <strong>Caiwen Ding</strong>, Xiaoye S Li, Hang Liu
+  list_only: true
+
+- name: "BFL-DISCO: Federated Generative Adversarial Network for Graph-based Molecule Drug Discovery"
+  date: "2021"
+  publish: ICCAD 2021
+  authors: Daniel Manu, Yi Sheng, Junhuan Yang, Jieren Deng, Tong Geng, Ang Li, <strong>Caiwen Ding</strong>, Weiwen Jiang, Lei Yang
+  list_only: true
+
+- name: "Optimizing FPGA-based Accelerator Design for Large-Scale Molecular Similarity Search"
+  date: "2021"
+  publish: ICCAD 2021
+  authors: Hongwu Peng, Shiyang Chen, Zhepeng Wang, Junhuan Yang, Scott Weitze, Tong Geng, Ang Li, Jinbo Bi, Minghu Song, Weiwen Jiang, Hang Liu, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "Exploration of Quantum Neural Architecture by Mixing Quantum Neuron Designs"
+  date: "2021"
+  publish: ICCAD 2021 (Invited)
+  authors: Zhepeng Wang, Zhiding Liang, Shanglin Zhou, <strong>Caiwen Ding</strong>, Jinjun Xiong, Yiyu Shi, Weiwen Jiang
+  list_only: true
+
+- name: "Enabling Retrain-free Deep Neural Network Pruning using Surrogate Lagrangian Relaxation"
+  date: "2021"
+  publish: IJCAI 2021
+  authors: Deniz Gurevin*, Mikhail Bragin*, <strong>Caiwen Ding</strong>*, Shanglin Zhou, Lynn Pepin, Bingbing Li, Fei Miao
+  list_only: true
+
+- name: "Against Membership Inference Attack: Pruning is All You Need"
+  date: "2021"
+  publish: IJCAI 2021
+  authors: Yijue Wang, Chenghong Wang, Zigeng Wang, Shanglin Zhou, Hang Liu, Jinbo Bi, <strong>Caiwen Ding</strong>, Sanguthevar Rajasekaran
+  list_only: true
+
+- name: "A Compression-Compilation Framework for On-mobile Real-time BERT Applications"
+  date: "2021"
+  publish: IJCAI 2021 (Demo)
+  authors: Wei Niu, Zhenglun Kong, Geng Yuan, Weiwen Jiang, Jiexiong Guan, <strong>Caiwen Ding</strong>, Pu Zhao, Sijia Liu, Bin Ren, Yanzhi Wang
+  list_only: true
+
+- name: "Dancing along Battery: Enabling Transformer with Run-time Reconfigurability on Mobile Devices"
+  date: "2021"
+  publish: DAC 2021
+  authors: Yuhong Song, Weiwen Jiang, Bingbing Li, Panjie Qi, Qingfeng Zhuge, Edwin Hsing-Mean Sha, Sakyasingha Dasgupta, Yiyu Shi, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "A Unified DNN Weight Compression Framework using Reweighted Optimization Methods"
+  date: "2021"
+  publish: DAC 2021
+  authors: Tianyun Zhang, Xiaolong Ma, Zheng Zhan, Shanglin Zhou, <strong>Caiwen Ding</strong>, Makan Fardad, Yanzhi Wang
+  list_only: true
+
+- name: "TinyADC: Peripheral Circuit-aware Weight Pruning Framework for Mixed-signal DNN Accelerators"
+  date: "2021"
+  publish: "DATE 2021 <span class='orange'><strong>Best Paper Award Nomination</strong></span>"
+  authors: Geng Yuan*, Payman Behnam*, Yuxuan Cai, Ali Shafiee, Jingyan Fu, Zhiheng Liao, Zhengang Li, Xiaolong Ma, Jieren Deng, Jinhui Wang, Mahdi Bojnordi, Yanzhi Wang, <strong>Caiwen Ding</strong>
+  list_only: true
+
+# --- 2020 Conference Papers ---
+
+- name: "Efficient Transformer-based Large Scale Language Representations using Hardware-friendly Block Structured Pruning"
+  date: "2020"
+  publish: EMNLP 2020 (Findings)
+  authors: Bingbing Li*, Zhenglun Kong*, Tianyun Zhang, Ji Li, Zhengang Li, Hang Liu, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "FTRANS: Energy-Efficient Acceleration of Transformers using FPGA"
+  date: "2020"
+  publish: ISLPED 2020
+  authors: Bingbing Li, Santosh Pandey, Haowen Fang, Yanjun Lyv, Ji Li, Jieyang Chen, Mimi Xie, Lipeng Wan, Hang Liu, <strong>Caiwen Ding</strong>
+  list_only: true
+
+- name: "Ftdl: A Tailored FPGA-overlay for Deep Learning with High Scalability"
+  date: "2020"
+  publish: DAC 2020
+  authors: Runbin Shi, Yuhao Ding, Xuechao Wei, He Li, Hang Liu, Hayden So, <strong>Caiwen Ding</strong>
+  list_only: true
+
+# --- 2019 Conference Papers ---
+
+- name: "A Stochastic-computing Based Deep Learning Framework using Adiabatic Quantum-flux-parametron Superconducting Technology"
+  date: "2019"
+  publish: ISCA 2019
+  authors: Ruizhe Cai, Ao Ren, Olivia Chen, Ning Liu, <strong>Caiwen Ding</strong>, Xuehai Qian, Jie Han, Wenhui Luo, Yoshikawa Nobuyuki, Yanzhi Wang
+  list_only: true
+
+# --- 2018 Conference Papers ---
+
+- name: "Towards Ultra-high Performance and Energy Efficiency of Deep Learning Systems: An Algorithm-Hardware Co-optimization Framework"
+  date: "2018"
+  publish: AAAI 2018
+  authors: Yanzhi Wang, <strong>Caiwen Ding</strong>, Gen Yuan, Siyu Liao, Zhe Li, Xiaolong Ma, Bo Yuan, Xuehai Qian, Jian Tang, Qinru Qiu, Xue Lin
+  list_only: true
+
+- name: "VIBNN: Hardware Acceleration of Bayesian Neural Networks"
+  date: "2018"
+  publish: ASPLOS 2018
+  authors: Ruizhe Cai, Ao Ren, Ning Liu, <strong>Caiwen Ding</strong>, Luhao Wang, Xuehai Qian, Massoud Pedram, Yanzhi Wang
+  list_only: true
+
+- name: "FFT-Based Deep Learning Deployment in Embedded Systems"
+  date: "2018"
+  publish: "DATE 2018 <span class='orange'><strong>Best Paper Award Nomination</strong></span>"
+  authors: Sheng Lin, Ning Liu, Mahdi Nazemi, Hongjia Li, <strong>Caiwen Ding</strong>, Yanzhi Wang, Massoud Pedram
+  list_only: true
+
+# --- 2017 Conference Papers ---
+
+- name: "SC-DCNN: Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing"
+  date: "2017"
+  publish: ASPLOS 2017
+  authors: Ao Ren, Zhe Li, <strong>Caiwen Ding</strong>, Qinru Qiu, Yanzhi Wang, Ji Li, Xuehai Qian, Bo Yuan
+  list_only: true
+
+# ============================================================
+# Journal Publications (Pre-2023)
+# ============================================================
+
+- name: "DefectTrack: A Deep Learning-based Multi-Object Tracking Algorithm for Quantitative Defect Analysis of In-situ TEM Videos in Real-time"
+  date: "2022"
+  publish: Nature Scientific Reports 2022
+  authors: Yuanyuan Zhu, Rajat Sainju, Wei-Ying Chen, Samuel Schaefer, Qian Yang, <strong>Caiwen Ding</strong>, Meimei Li
+  type: journal
+  list_only: true
+
+- name: "Memristor-Based Spectral Decomposition of Matrices and Applications"
+  date: "2022"
+  publish: IEEE TC 2022
+  authors: Zeinab S. Jalali, Chenghong Wang, Griffin Kearney, Geng Yuan, <strong>Caiwen Ding</strong>, Yinan Zhou, Yanzhi Wang, Sucheta Soundarajan
+  type: journal
+  list_only: true
+
+- name: "Mapping Transformation Enabled High-Performance and Low-Energy Memristor-Based DNNs"
+  date: "2022"
+  publish: JLPEA 2022
+  authors: Oli-Uz-Zaman, Md, Saleh Ahmad Khan, Geng Yuan, Zhiheng Liao, Jingyan Fu, <strong>Caiwen Ding</strong>, Yanzhi Wang, Jinhui Wang
+  type: journal
+  list_only: true
+
+- name: "Real-time Multi-Object Tracking of Ion-irradiation Induced Defects in In Situ TEM Videos"
+  date: "2022"
+  publish: Microscopy and Microanalysis 2022
+  authors: Rajat Sainju, Wei-Ying Chen, Samuel Schaefer, Qian Yang, <strong>Caiwen Ding</strong>, Meimei Li, Yuanyuan Zhu
+  type: journal
+  list_only: true
+
+- name: "Tracking and Understanding Nanocatalyst Sintering and Regeneration using Deep Learning-assisted In Situ Environmental TEM"
+  date: "2021"
+  publish: Microscopy and Microanalysis 2021
+  authors: Rajat Sainju, Steven Suib, <strong>Caiwen Ding</strong>, Yuanyuan Zhu
+  type: journal
+  list_only: true
+
+- name: "Graph-Based Shape Analysis for Heterogeneous Geometric Datasets: Similarity, Retrieval and Substructure Matching"
+  date: "2021"
+  publish: Computer-Aided Design 2021
+  authors: Jiangce Chen, Horea T. Ilies, <strong>Caiwen Ding</strong>
+  type: journal
+  list_only: true
+
+- name: "Aerial Manipulation Using a Novel Unmanned Aerial Vehicle Cyber-Physical System"
+  date: "2021"
+  publish: IEEE TCCPS Letter 2021
+  authors: Caiwu Ding, Hongwu Peng, Lu Lu, <strong>Caiwen Ding</strong>
+  type: journal
+  list_only: true
+
+- name: "TRUST: Triangle Counting Reloaded on GPUs"
+  date: "2021"
+  publish: IEEE TPDS 2021
+  authors: Santosh Pandey, Zhibin Wang, Sheng Zhong, Chen Tian, Bolong Zheng, Xiaoye Li, Lingda Li, Adolfy Hoisie, <strong>Caiwen Ding</strong>, Dong Li, Hang Liu
+  type: journal
+  list_only: true
+
+- name: "Design, Sensing, and Control of a Novel UAV Platform for Aerial Drilling"
+  date: "2021"
+  publish: IEEE RA-L 2021
+  authors: Caiwu Ding, Lu Lu, Cong Wang, <strong>Caiwen Ding</strong>
+  type: journal
+  list_only: true
+
+- name: "An Exploratory Approach to Deriving Nutrition Information of Restaurant Food from Crowdsourced Food Images"
+  date: "2021"
+  publish: Nutrients 2021
+  authors: Xiang Chen, Evelyn Johnson, Aditya Kulkarni, <strong>Caiwen Ding</strong>, Natalie Ranelli, Yanyan Chen, Ran Xu
+  type: journal
+  list_only: true
+
+- name: "Normalization and Dropout for Stochastic Computing-based Deep Convolutional Neural Networks"
+  date: "2019"
+  publish: Integration, the VLSI Journal 2019
+  authors: Ji Li, Zihao Yuan, Zhe Li, Ao Ren, <strong>Caiwen Ding</strong>, Jeffrey Draper, Shahin Nazarian, Qinru Qiu, Bo Yuan, Yanzhi Wang
+  type: journal
+  list_only: true
+
+- name: "Dynamic Reconfiguration of Thermoelectric Generators for Vehicle Radiators Energy Harvesting under Location-dependent Temperature"
+  date: "2018"
+  publish: IEEE TVLSI 2018
+  authors: Jaemin Kim, Donkyu Baek, <strong>Caiwen Ding</strong>, Sheng Lin, Donghwa Shin, Xue Lin, et al.
+  type: journal
+  list_only: true
+
+- name: "HEIF: Highly Efficient Stochastic Computing based Inference Framework for Deep Neural Networks"
+  date: "2018"
+  publish: IEEE TCAD 2018
+  authors: Zhe Li, Ji Li, Ao Ren, Ruizhe Cai, <strong>Caiwen Ding</strong>, Xuehai Qian, Jeffrey Draper, Bo Yuan, Jian Tang, Qinru Qiu, Yanzhi Wang
+  type: journal
+  list_only: true
+
+- name: "Reconfigurable Photovoltaic Systems for Electric Vehicles"
+  date: "2018"
+  publish: "IEEE Design & Test 2018"
+  authors: <strong>Caiwen Ding</strong>, Hongjia Li, Weiwei Zheng, Xue Lin, Yanzhi Wang
+  type: journal
+  list_only: true
+
+- name: "Multisource Indoor Energy Harvesting for Nonvolatile Processors"
+  date: "2017"
+  publish: "IEEE Design & Test 2017"
+  authors: <strong>Caiwen Ding</strong>, Ning Liu, Yanzhi Wang, Ji Li, Soroush Heidari, Jingtong Hu, Yongpan Liu
+  type: journal
+  list_only: true
+
+- name: "Luminescent Solar Concentrator-Based Reconfigurable Photovoltaic System for EV/HEV"
+  date: "2016"
+  publish: IEEE TCCPS Letter 2016
+  authors: Yanzhi Wang, <strong>Caiwen Ding</strong>
+  type: journal
+  list_only: true
+
+# ============================================================
+# Workshop and Poster Publications
+# ============================================================
+
+- name: "ESMFL: Efficient and Secure Models for Federated Learning"
+  date: "2020"
+  publish: NeurIPS Workshop 2020
+  authors: Sheng Lin, Chenghong Wang, Hongjia Li, Jieren Deng, Yanzhi Wang, <strong>Caiwen Ding</strong>
+  type: workshop
+  list_only: true
+
+- name: "Ftdl: An FPGA-tailored Architecture for Deep Learning Applications"
+  date: "2020"
+  publish: FPGA 2020 (Poster)
+  authors: Runbin Shi, Yuhao Ding, Xuechao Wei, Hang Liu, Hayden So, <strong>Caiwen Ding</strong>
+  type: workshop
+  list_only: true
+
+- name: "A Privacy-Preserving-Oriented DNN Pruning and Mobile Acceleration Framework"
+  date: "2020"
+  publish: BARC 2020
+  authors: Zheng Zhan, Yifan Gong, Zhengang Li, Wei Niu, Xiaolong Ma, Bin Ren, <strong>Caiwen Ding</strong>, Xue Lin, Yanzhi Wang
+  type: workshop
+  list_only: true
+
+- name: "Accelerating Transformers-based Large-Scale Language Representation using FPGA"
+  date: "2020"
+  publish: BARC 2020
+  authors: Shanglin Zhou, Bingbing Li, <strong>Caiwen Ding</strong>
+  type: workshop
+  list_only: true
+
+- name: "Deep Compressed Pneumonia Detection for Low-Power Embedded Device"
+  date: "2019"
+  publish: MICCAI Workshop 2019
+  authors: Hongjia Li, Sheng Lin, Ning Liu, <strong>Caiwen Ding</strong>, Yanzhi Wang
+  type: workshop
+  list_only: true
+
+- name: "Efficient Recurrent Neural Networks using Structured Matrices in FPGAs"
+  date: "2018"
+  publish: ICLR Workshop 2018
+  authors: Zhe Li, Shuo Wang, <strong>Caiwen Ding</strong>, Qinru Qiu, Yanzhi Wang, Yun Liang
+  type: workshop
+  list_only: true

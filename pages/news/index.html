@@ -1,0 +1,16 @@
+---
+layout: default
+title: "News"
+header_title: News
+subtitle: ""
+include_header: page_header.html
+nav_item: News
+---
+
+<div class="clearfix">
+    <ul class="news-full-list dark-gray" style="padding-left: 20px;">
+        {% for new in site.data.news %}
+        <li class="h5 header-font mb1">[<b>{{new.date}}</b>] {{ new.title }}</li>
+        {% endfor %}
+    </ul>
+</div>
