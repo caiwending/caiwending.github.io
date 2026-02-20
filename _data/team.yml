@@ -30,10 +30,6 @@ current:
       area: ML for Hardware Design
       photo: ""
       url: ""
-    - name: Amit Hasan
-      area: Model Compression, Computer Vision, NN Architecture-Hardware Co-design
-      photo: ""
-      url: ""
     - name: Bin Lei
       area: Machine Learning, LLM
       photo: "BinLei.jpg"
@@ -54,7 +50,10 @@ current:
       area: GPU, FPGA
       photo: ""
       url: ""
-
+    - name: Amit Hasan
+      area: Model Compression, Computer Vision, NN Architecture-Hardware Co-design
+      photo: ""
+      url: ""
   master:
     - name: Alex Chen
       area: Computer Engineering
