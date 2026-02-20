@@ -79,6 +79,9 @@ alumni:
       note: Co-supervision with Prof. Omer Khan
       position: Synopsys
       url: ""
+   
+
+  other:
     - name: Nicole Meng
       area: Adversarial Machine Learning, Computer Vision
       position: Ph.D. student at Tufts University
@@ -94,8 +97,6 @@ alumni:
       position: Amazon
       photo: ""
       url: ""
-
-  other:
     - name: Ya-Sine Agrignan
       role: Research Assistant (Master)
       url: ""
@@ -107,3 +108,4 @@ alumni:
       role: Visiting Scholar
       position: Ph.D. Student at UT Arlington
       url: ""
+    
