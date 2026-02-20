@@ -1,6 +1,6 @@
 # Website settings
-baseurl: "/"
-url: "http://caiwending.github.io"
+baseurl: ""
+url: "https://caiwending.github.io"
 icon: "/assets/img/icons/cat.ico"
 
 # Internal nav
