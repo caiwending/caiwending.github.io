@@ -56,9 +56,17 @@ current:
       url: ""
   master:
     - name: Alex Chen
-      area: Computer Engineering
+      area: ML System
       photo: "AlexChen.png"
       url: "https://www.linkedin.com/in/alexandergyuchen/"
+  
+  undergrad:
+    - name: Haoyang Chen 
+      area: ML System
+      photo: "HaoyangChen.png"
+      url: "https://haoyangchen23.github.io/"
+    
+
 
 alumni:
   phd:
