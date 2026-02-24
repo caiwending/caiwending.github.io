@@ -1,3 +1,11 @@
+- label: paper 
+  title: "One paper accepted by <strong>DAC 2026</strong>" 
+  date: Feb, 2026
+
+- label: award 
+  title: "Honored to receive a Gift grant from Adobe"
+  date: Jan, 2026
+
 - label: paper
   title: "Two papers accepted by <strong>ICLR 2026</strong>"
   date: Jan, 2026
