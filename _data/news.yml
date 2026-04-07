@@ -1,5 +1,9 @@
-- label: paper 
-  title: "One paper accepted by <strong>DAC 2026</strong>" 
+- label: paper
+  title: "One paper accepted by <strong>ACL 2026</strong>"
+  date: Apr, 2026
+
+- label: paper
+  title: "One paper accepted by <strong>DAC 2026</strong>"
   date: Feb, 2026
 
 - label: award 
