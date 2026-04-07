@@ -6,7 +6,6 @@
   authors: Nuo Xu, Winson Chen, Bin Lei, Pei-Hung Lin, Dunzhi Zhou, Rajeev Thakur, <strong>Caiwen Ding</strong>, Ali Jannesari, Chunhua Liao
   image: "beyondcodepairs.png"
   details: "https://arxiv.org/pdf/2512.03086"
-  list_only: true
   cate:
     - "ml_systems"
     - "llm_agents"
