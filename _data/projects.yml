@@ -3,7 +3,7 @@
 - name: "Beyond Code Pairs: Dialogue-Based Data Generation for LLM Code Translation"
   date: "2026"
   publish: ACL 2026
-  authors: Nuo Xu, Winson Chen, Bin Lei, Pei-Hung Lin, Dunzhi Zhou, Rajeev Thakur, <strong>Caiwen Ding</strong>, Ali Jannesari, Chunhua Liao
+  authors: Le Chen, Nuo Xu, Winson Chen, Bin Lei, Pei-Hung Lin, Dunzhi Zhou, Rajeev Thakur, <strong>Caiwen Ding</strong>, Ali Jannesari, Chunhua Liao
   image: "beyondcodepairs.png"
   details: "https://arxiv.org/pdf/2512.03086"
   cate:
