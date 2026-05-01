@@ -5,6 +5,7 @@
   publish: ICML 2026
   authors: Bin Lei, Nuo Xu, Ali Payani, Mingyi Hong, Chunhua Liao, Yu Cao, <strong>Caiwen Ding</strong>
   details: "https://arxiv.org/abs/2510.04039"
+  image: "GUI-spot.png"
   cate:
     - "llm_agents"
     - "cv_nlp"
@@ -14,6 +15,7 @@
   publish: ICML 2026
   authors: Shiyang Li, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, <strong>Caiwen Ding</strong>
   details: "https://arxiv.org/abs/2603.02637"
+  image: "stitchCUDA.png"
   cate:
     - "ml_systems"
     - "llm_agents"
