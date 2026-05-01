@@ -1,5 +1,23 @@
 # Selected Conference Publications
 
+- name: "GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding"
+  date: "2026"
+  publish: ICML 2026
+  authors: Bin Lei, Nuo Xu, Ali Payani, Mingyi Hong, Chunhua Liao, Yu Cao, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2510.04039"
+  cate:
+    - "llm_agents"
+    - "cv_nlp"
+
+- name: "StitchCUDA: An Automated Multi-Agents End-to-End GPU Programing Framework with Rubric-based Agentic Reinforcement Learning"
+  date: "2026"
+  publish: ICML 2026
+  authors: Shiyang Li, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/abs/2603.02637"
+  cate:
+    - "ml_systems"
+    - "llm_agents"
+
 - name: "Beyond Code Pairs: Dialogue-Based Data Generation for LLM Code Translation"
   date: "2026"
   publish: ACL 2026
