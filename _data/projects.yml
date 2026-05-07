@@ -1,5 +1,15 @@
 # Selected Conference Publications
 
+- name: "GSR-GNN: Training Acceleration and Memory-Saving Framework of Deep GNNs on Circuit Graph"
+  date: "2026"
+  publish: DAC 2026
+  authors: Yuebo Luo, Shiyang Li, Yifei Feng, Vishal Kancharla, Shaoyi Huang, <strong>Caiwen Ding</strong>
+  details: "https://arxiv.org/pdf/2603.27156"
+  image: "GSR-GNN.png"
+  cate:
+    - "gnn"
+    - "ml_for_eda"
+
 - name: "GUI-Spotlight: Adaptive Iterative Focus Refinement for Enhanced GUI Visual Grounding"
   date: "2026"
   publish: ICML 2026
