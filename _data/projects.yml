@@ -5,7 +5,7 @@
   publish: DAC 2026
   authors: Yuebo Luo, Shiyang Li, Yifei Feng, Vishal Kancharla, Shaoyi Huang, <strong>Caiwen Ding</strong>
   details: "https://arxiv.org/pdf/2603.27156"
-  image: "GSR-GNN.png"
+  image: "GSR-GNN.jpg"
   cate:
     - "gnn"
     - "ml_for_eda"
