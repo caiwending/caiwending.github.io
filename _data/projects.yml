@@ -26,6 +26,10 @@
   authors: Shiyang Li, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, <strong>Caiwen Ding</strong>
   details: "https://arxiv.org/abs/2603.02637"
   image: "stitchCUDA.png"
+  attach:
+    - url: "https://github.com/UMN-APEX-Lab/StitchCUDA"
+      icon: github
+      label: Code
   cate:
     - "ml_systems"
     - "llm_agents"
