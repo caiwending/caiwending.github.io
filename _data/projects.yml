@@ -1,5 +1,31 @@
 # Selected Conference Publications
 
+- name: "CLDRoute: Conditional Latent Diffusion for Routability Map Generation in Physical Design"
+  date: "2026"
+  publish: ICCAD 2026
+  authors: Kiran Thorat, Nicole Meng, <strong>Caiwen Ding</strong>, Yingjie Lao, Zhijie Jerry Shi
+  image: "CLDRoute.png"
+  details: "https://arxiv.org/abs/2607.16674"
+  cate:
+    - "ml_for_eda"
+
+- name: "MPCAR: Scalable and Secure Multi-Party Computation-based AllReduce"
+  date: "2026"
+  publish: SC 2026
+  authors: Hao Qi, Weicong Chen, Chenghong Wang, <strong>Caiwen Ding</strong>, Xiaoyi Lu
+  cate:
+    - "privacy_ml"
+    - "ml_systems"
+
+- name: "HEDWIG: Homomorphic Encryption Accelerator Design Using BFV-HPS With HiGh-Speed Fixed-Point Approximation"
+  date: "2026"
+  publish: IEEE TCAS-I 2026
+  authors: Antian Wang, Weihang Tan, Zhenyu Xu, Tao Wei, <strong>Caiwen Ding</strong>, Keshab K. Parhi, Yingjie Lao
+  type: journal
+  cate:
+    - "privacy_ml"
+    - "architecture"
+
 - name: "GSR-GNN: Training Acceleration and Memory-Saving Framework of Deep GNNs on Circuit Graph"
   date: "2026"
   publish: DAC 2026
