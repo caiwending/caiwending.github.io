@@ -1,5 +1,15 @@
 # Selected Conference Publications
 
+- name: "End-to-End On-Device Quantization-Aware Training for LLMs at Inference Cost"
+  date: "2026"
+  publish: EMNLP 2026 (Findings)
+  authors: Qitao Tan, Xiaoying Song, Jin Lu, Guoming Li, Jun Liu, Lingzi Hong, <strong>Caiwen Ding</strong>, Jundong Li, Xiaoming Zhai, Shaoyi Huang, Ninghao Liu, Wei Niu, Geng Yuan
+  details: "https://arxiv.org/abs/2509.00031"
+  image: "ZeroQAT.png"
+  cate:
+    - "ml_systems"
+    - "cv_nlp"
+
 - name: "CLDRoute: Conditional Latent Diffusion for Routability Map Generation in Physical Design"
   date: "2026"
   publish: ICCAD 2026
@@ -21,6 +31,7 @@
   date: "2026"
   publish: IEEE TCAS-I 2026
   authors: Antian Wang, Weihang Tan, Zhenyu Xu, Tao Wei, <strong>Caiwen Ding</strong>, Keshab K. Parhi, Yingjie Lao
+  details: "https://dl.acm.org/doi/pdf/10.1145/3706628.3708853"
   type: journal
   cate:
     - "privacy_ml"
