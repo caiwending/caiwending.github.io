@@ -54,6 +54,10 @@ current:
       area: Model Compression, Computer Vision, NN Architecture-Hardware Co-design
       photo: ""
       url: ""
+    - name: Gloria Van Le
+      area: ML
+      photo: "GloriaVanLe.jpg"
+      url: "https://www.linkedin.com/in/gloria-van-le-132256260/"
   master:
     - name: Alex Chen
       area: ML System
