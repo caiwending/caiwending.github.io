@@ -1,5 +1,15 @@
 # Selected Conference Publications
 
+- name: "CUDABeaver: Benchmarking LLM-Based Automated CUDA Debugging"
+  date: "2026"
+  publish: NeurIPS 2026
+  authors: Shiyang Li, Haoyang Chen, Mattia Fazzini, <strong>Caiwen Ding</strong>
+  image: "CUDABeaver.png"
+  details: "https://arxiv.org/abs/2605.08455"
+  cate:
+    - "ml_systems"
+    - "llm_agents"
+
 - name: "End-to-End On-Device Quantization-Aware Training for LLMs at Inference Cost"
   date: "2026"
   publish: EMNLP 2026 (Findings)
