@@ -27,7 +27,7 @@
     {% endif %}
     <p class="left-align mb0">
       {% for tag in include.project.cate %}
-      <span class="paper-tag {{tag}} active"> <i class="fa fa-fw fa-tag"></i>{{tag | replace: '_', ' '}}</span>
+      <span class="paper-tag {{tag}} active"> <i class="fa fa-fw fa-tag"></i>{% case tag %}{% when 'ml_systems' %}ML Systems{% when 'architecture' %}Architecture{% when 'privacy_ml' %}Privacy ML{% when 'ml_for_eda' %}ML for EDA{% when 'gnn' %}GNN{% when 'cv_nlp' %}CV/NLP{% when 'llm_agents' %}LLM Agents{% when 'emerging_tech' %}Emerging Tech{% else %}{{ tag | replace: '_', ' ' }}{% endcase %}</span>
       {% endfor %}
     </p>
 
